@@ -122,7 +122,7 @@ background-repeat: no-repeat;
 .blocks40 {
     position: absolute;
     z-index: 28;
-    top: 171px;
+    top: 174px;
     right: 50px;
     display: flex;
     flex-direction: column;
@@ -382,7 +382,7 @@ background-repeat: no-repeat;
     position: absolute;
       right: -114px;
       top: 340px;
-
+      max-height:375px;
       min-width: 261px;
 }
 
@@ -421,7 +421,7 @@ h1.tlt10, h1.tlt101, h1.tlt102, h1.tlt104 {
     top: 346px;
     color: white;
     font-family: 'Roboto', sans-serif;
-    left: -127px;
+    left: -122px;
     min-width: 227px;
 }
 
@@ -436,7 +436,7 @@ h1.tlt10, h1.tlt101, h1.tlt102, h1.tlt104 {
 
 #bText4 {
   position: absolute;
-    top: 341px;
+    top: 330px;
     color: white;
     font-family: 'Roboto', sans-serif;
     left: -129px;
