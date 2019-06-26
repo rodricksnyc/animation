@@ -410,21 +410,19 @@ $( window ).on("load", function() {
 
 
 
-$(window).on('scroll', function() {
-var screenTop = $(window).scrollTop();
-var screenBottom = $(window).scrollTop() + window.innerHeight;
 
-$('section').each(function() {
-    var elementTop = $(this).offset().top;
-    var elementBottom = $(this).offset().top + $(this).outerHeight();
 
-    if ((screenBottom > elementTop + ($(this).find('.heros').height() + 500)) && (screenTop < elementBottom)) {
-        $('section').removeClass('active2')
-        $(this).addClass('active2')
-    } else {
-        $(this).removeClass('active2')
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    var element = $('.blocks501'); //change this to your element you want to add the css to
+    if(height  > element.offset().top) {
+        element.addClass('active2'); //add css class black (change according to own css)
     }
-})
+
+    else {
+        element.removeClass('active2');
+    }
+
 
 if ($('.blocks501').hasClass('active2')) {
 
@@ -522,30 +520,22 @@ setTimeout(function() {
 
 }
 
-
-
-
-
-
-
 });
 
 
-$(window).on('scroll', function() {
-var screenTop = $(window).scrollTop();
-var screenBottom = $(window).scrollTop() + window.innerHeight;
 
-$('section').each(function() {
-    var elementTop = $(this).offset().top;
-    var elementBottom = $(this).offset().top + $(this).outerHeight();
 
-    if ((screenBottom > elementTop + ($(this).find('.heros').height() + 700)) && (screenTop < elementBottom)) {
-        $('section').removeClass('active2')
-        $(this).addClass('active2')
-    } else {
-        $(this).removeClass('active2')
+$(window).scroll(function() {
+    var height2 = $(window).scrollTop();
+    var element2 = $('.blocks601'); //change this to your element you want to add the css to
+    if(height2  > element2.offset().top - 200) {
+        element2.addClass('active2'); //add css class black (change according to own css)
     }
-})
+
+    else {
+        element2.removeClass('active2');
+    }
+
 
 if ($('.blocks601').hasClass('active2')) {
 
@@ -644,21 +634,17 @@ if ($('.blocks601').hasClass('active2')) {
 
 
 
-$(window).on('scroll', function() {
-var screenTop = $(window).scrollTop();
-var screenBottom = $(window).scrollTop() + window.innerHeight;
-
-$('section').each(function() {
-    var elementTop = $(this).offset().top;
-    var elementBottom = $(this).offset().top + $(this).outerHeight();
-
-    if ((screenBottom > elementTop + ($(this).find('.heros').height() + 50)) && (screenTop < elementBottom)) {
-        $('section').removeClass('active2')
-        $(this).addClass('active2')
-    } else {
-        $(this).removeClass('active2')
+$(window).scroll(function() {
+    var height3 = $(window).scrollTop();
+    var element3 = $('.blocks701'); //change this to your element you want to add the css to
+    if(height3  > element3.offset().top) {
+        element3.addClass('active2'); //add css class black (change according to own css)
     }
-})
+
+    else {
+        element3.removeClass('active2');
+    }
+
 
 if ($('.blocks701').hasClass('active2')) {
 
@@ -755,57 +741,233 @@ setTimeout(function() {
 
 }
 
+});
 
 
-
-
-
-})
-
-$(window).on('scroll', function() {
-var screenTop = $(window).scrollTop();
-var screenBottom = $(window).scrollTop() + window.innerHeight;
-
-$('section').each(function() {
-    var elementTop = $(this).offset().top;
-    var elementBottom = $(this).offset().top + $(this).outerHeight();
-
-    if ((screenBottom > elementTop + ($(this).find('.heros').height() + 600)) && (screenTop < elementBottom)) {
-        $('section').removeClass('active2')
-        $(this).addClass('active2')
-    } else {
-        $(this).removeClass('active2')
+$(window).scroll(function() {
+    var height4 = $(window).scrollTop();
+    var element4 = $('.blocks801'); //change this to your element you want to add the css to
+    if(height4  > element4.offset().top -150) {
+        element4.addClass('active2'); //add css class black (change according to own css)
     }
-})
 
-if ($('.blocks800').hasClass('active2')) {
+    else {
+        element4.removeClass('active2');
+    }
+
+
+if ($('.blocks801').hasClass('active2')) {
+
 
   setTimeout(function() {
-      $('.blocks800 .content-top').removeClass('transparent').addClass('animated slideInDown')
+      $('.blocks800 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-  }, 2900)
+  }, 100)
 
   setTimeout(function() {
         $('.blocks800 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-  }, 3200)
+  }, 200)
 
   setTimeout(function() {
         $('.blocks800 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-  }, 3400)
+  }, 300)
 
   setTimeout(function() {
-        $('.blocks800 .content-last').removeClass('transparent').addClass('animated jackInTheBox')
+        $('.blocks800 .content-last').removeClass('transparent').addClass('animated  slideInUp')
 
-  }, 3600)
+  }, 400)
 
+  setTimeout(function() {
+        $('.blocks800 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
+
+  }, 500)
+  setTimeout(function() {
+        $('.blocks800 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
+
+  }, 600)
+
+  setTimeout(function() {
+        $('.blocks800 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+  }, 700)
+
+  setTimeout(function() {
+        $('.blocks800 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+  }, 800)
+
+
+
+  setTimeout(function() {
+      $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInDown')
+
+  }, 1500)
+
+  setTimeout(function() {
+        $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+  }, 1800)
+
+  setTimeout(function() {
+        $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
+
+  }, 2000)
+
+  setTimeout(function() {
+        $('.blocks801 .content-last').removeClass('transparent').addClass('animated jackInTheBox')
+
+  }, 2300)
+
+
+    setTimeout(function() {
+        $('.blocks802 .content-top').removeClass('transparent').addClass('animated slideInDown')
+
+    }, 2500)
+
+    setTimeout(function() {
+          $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+          var $tlt105 = $('.tlt105').textillate({
+              autoStart: true,
+              selector: '.tlt105',
+              loop: false,
+              minDisplayTime: 1000,
+              initialDelay: 200,
+              in: {
+                effect: 'fadeInLeft',
+                delayScale: 2,
+                delay: 5,
+                sync: false,
+                shuffle: true,
+                reverse: false,
+                callback: function () {}
+              },
+              type: 'char'
+          });
+
+    }, 2600)
+
+    setTimeout(function() {
+        $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
+
+    }, 4500)
+
+
+        setTimeout(function() {
+              $('.blocks900 .content-top').removeClass('transparent').addClass('animated  slideInUp')
+
+              var $tlt106 = $('.tlt106').textillate({
+                  autoStart: true,
+                  selector: '.tlt106',
+                  loop: false,
+                  minDisplayTime: 1000,
+                  initialDelay: 200,
+                  in: {
+                    effect: 'fadeInLeft',
+                    delayScale: 2,
+                    delay: 4,
+                    sync: false,
+                    shuffle: true,
+                    reverse: false,
+                    callback: function () {}
+                  },
+                  type: 'char'
+              });
+
+        }, 5000)
+
+    setTimeout(function() {
+    $('.blocks900 .content-middle').removeClass('transparent').addClass('animated slideInRight')
+
+  }, 5400)
+
+  setTimeout(function() {
+  $('.blocks1000 .content-top').removeClass('transparent').addClass('animated slideInRight')
+
+}, 6000)
 
 }
 
 
-})
 
+});
+
+
+// $(window).scroll(function() {
+//     var height9 = $(window).scrollTop();
+//     var element9 = $('.blocks900'); //change this to your element you want to add the css to
+//     if(height9  > element9.offset().top) {
+//         element9.addClass('active2'); //add css class black (change according to own css)
+//     }
+//
+//     else {
+//         element9.removeClass('active2');
+//     }
+//
+//
+// if ($('.blocks900').hasClass('active2')) {
+//
+//   console.log("fgkuberi")
+//
+//     setTimeout(function() {
+//           $('.blocks900 .content-top').removeClass('transparent').addClass('animated  slideInUp')
+//
+//           var $tlt106 = $('.tlt106').textillate({
+//               autoStart: true,
+//               selector: '.tlt106',
+//               loop: false,
+//               minDisplayTime: 1000,
+//               initialDelay: 200,
+//               in: {
+//                 effect: 'fadeInLeft',
+//                 delayScale: 2,
+//                 delay: 4,
+//                 sync: false,
+//                 shuffle: true,
+//                 reverse: false,
+//                 callback: function () {}
+//               },
+//               type: 'char'
+//           });
+//
+//     }, 10)
+//
+// setTimeout(function() {
+// $('.blocks900 .content-middle').removeClass('transparent').addClass('animated slideInRight')
+//
+// }, 100)
+//
+// }
+//
+// })
+//
+//
+//
+// $(window).scroll(function() {
+//     var height10 = $(window).scrollTop();
+//     var element10 = $('.blocks1000'); //change this to your element you want to add the css to
+//     if(height10  > element10.offset().top) {
+//         element10.addClass('active2'); //add css class black (change according to own css)
+//     }
+//
+//     else {
+//         element10.removeClass('active2');
+//     }
+//
+//
+// if ($('.blocks1000').hasClass('active2')) {
+//
+//
+// setTimeout(function() {
+// $('.blocks1000 .content-top').removeClass('transparent').addClass('animated slideInRight')
+//
+// }, 100)
+//
+// }
+//
+// })
 
 
 
