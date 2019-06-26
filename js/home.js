@@ -855,44 +855,72 @@ if ($('.blocks801').hasClass('active2')) {
     }, 4500)
 
 
-        setTimeout(function() {
-              $('.blocks900 .content-top').removeClass('transparent').addClass('animated  slideInUp')
 
-              var $tlt106 = $('.tlt106').textillate({
-                  autoStart: true,
-                  selector: '.tlt106',
-                  loop: false,
-                  minDisplayTime: 1000,
-                  initialDelay: 200,
-                  in: {
-                    effect: 'fadeInLeft',
-                    delayScale: 2,
-                    delay: 4,
-                    sync: false,
-                    shuffle: true,
-                    reverse: false,
-                    callback: function () {}
-                  },
-                  type: 'char'
-              });
-
-        }, 5000)
-
-    setTimeout(function() {
-    $('.blocks900 .content-middle').removeClass('transparent').addClass('animated slideInRight')
-
-  }, 5400)
-
-  setTimeout(function() {
-  $('.blocks1000 .content-top').removeClass('transparent').addClass('animated slideInRight')
-
-}, 6000)
+//
+//   setTimeout(function() {
+//   $('.blocks1000 .content-top').removeClass('transparent').addClass('animated slideInRight')
+//
+// }, 6000)
 
 }
 
 
 
 });
+
+
+
+$(window).on('scroll', function() {
+var screenTop = $(window).scrollTop();
+var screenBottom = $(window).scrollTop() + window.innerHeight;
+
+$('article').each(function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = $(this).offset().top + $(this).outerHeight();
+
+    if ((screenBottom > elementTop + ($(this).find('.hero').height() + 200)) && (screenTop < elementBottom)) {
+        $('article').removeClass('active2')
+        $(this).addClass('active2')
+    } else {
+        $(this).removeClass('active2')
+    }
+})
+
+if ($('.blocks900').hasClass('active2')) {
+
+  setTimeout(function() {
+        $('.blocks900 .content-top').removeClass('transparent').addClass('animated  slideInUp')
+
+        var $tlt106 = $('.tlt106').textillate({
+            autoStart: true,
+            selector: '.tlt106',
+            loop: false,
+            minDisplayTime: 1000,
+            initialDelay: 200,
+            in: {
+              effect: 'fadeInLeft',
+              delayScale: 2,
+              delay: 4,
+              sync: false,
+              shuffle: true,
+              reverse: false,
+              callback: function () {}
+            },
+            type: 'char'
+        });
+
+  }, 100)
+
+setTimeout(function() {
+$('.blocks900 .content-middle').removeClass('transparent').addClass('animated slideInRight')
+
+}, 300)
+
+}
+
+
+
+})
 
 
 // $(window).scroll(function() {
