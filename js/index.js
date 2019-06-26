@@ -298,13 +298,13 @@ $( window ).on("load", function() {
         setTimeout(function() {
             $('.blocks40 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-        }, 1100)
+        }, 700)
 
         setTimeout(function() {
               $('.blocks40 .content-middle').removeClass('transparent').addClass('animated  lightSpeedIn')
 
 
-        }, 1600)
+        }, 1100)
 
         setTimeout(function() {
             $('.blocks41 .content-top').removeClass('transparent').addClass('animated infinite pulse')
@@ -418,7 +418,7 @@ $('section').each(function() {
     var elementTop = $(this).offset().top;
     var elementBottom = $(this).offset().top + $(this).outerHeight();
 
-    if ((screenBottom > elementTop + ($(this).find('.heros').height() + 400)) && (screenTop < elementBottom)) {
+    if ((screenBottom > elementTop + ($(this).find('.heros').height() + 500)) && (screenTop < elementBottom)) {
         $('section').removeClass('active2')
         $(this).addClass('active2')
     } else {
@@ -528,6 +528,24 @@ setTimeout(function() {
 
 
 
+});
+
+
+$(window).on('scroll', function() {
+var screenTop = $(window).scrollTop();
+var screenBottom = $(window).scrollTop() + window.innerHeight;
+
+$('section').each(function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = $(this).offset().top + $(this).outerHeight();
+
+    if ((screenBottom > elementTop + ($(this).find('.heros').height() + 500)) && (screenTop < elementBottom)) {
+        $('section').removeClass('active2')
+        $(this).addClass('active2')
+    } else {
+        $(this).removeClass('active2')
+    }
+})
 
 if ($('.blocks601').hasClass('active2')) {
 
@@ -622,7 +640,25 @@ if ($('.blocks601').hasClass('active2')) {
 
       }
 
+});
 
+
+
+$(window).on('scroll', function() {
+var screenTop = $(window).scrollTop();
+var screenBottom = $(window).scrollTop() + window.innerHeight;
+
+$('section').each(function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = $(this).offset().top + $(this).outerHeight();
+
+    if ((screenBottom > elementTop + ($(this).find('.heros').height() + 800)) && (screenTop < elementBottom)) {
+        $('section').removeClass('active2')
+        $(this).addClass('active2')
+    } else {
+        $(this).removeClass('active2')
+    }
+})
 
 if ($('.blocks701').hasClass('active2')) {
 
@@ -725,8 +761,8 @@ setTimeout(function() {
 $(document).ready(function () {
 
   $('.tlt1').fadeIn();
-    $('.tlt2').fadeIn()
-      $('.tlt3').fadeIn()
+  $('.tlt2').fadeIn();
+  $('.tlt3').fadeIn();
 
   var $tlt1 = $('.tlt1').textillate({
       autoStart: true,
