@@ -878,7 +878,7 @@ $('article').each(function() {
     var elementTop = $(this).offset().top;
     var elementBottom = $(this).offset().top + $(this).outerHeight();
 
-    if ((screenBottom > elementTop + ($(this).find('.hero').height() + 200)) && (screenTop < elementBottom)) {
+    if ((screenBottom > elementTop + ($(this).find('.hero').height() + 300)) && (screenTop < elementBottom)) {
         $('article').removeClass('active2')
         $(this).addClass('active2')
     } else {
@@ -919,6 +919,32 @@ $('.blocks900 .content-middle').removeClass('transparent').addClass('animated sl
 }
 
 
+if ($('.blocks900').hasClass('active2')) {
+
+  setTimeout(function() {
+        $('.blocks1000 .content-top').removeClass('transparent').addClass('animated  slideInUp')
+
+        var $tlt106 = $('.tlt106').textillate({
+            autoStart: true,
+            selector: '.tlt106',
+            loop: false,
+            minDisplayTime: 1000,
+            initialDelay: 200,
+            in: {
+              effect: 'fadeInLeft',
+              delayScale: 2,
+              delay: 4,
+              sync: false,
+              shuffle: true,
+              reverse: false,
+              callback: function () {}
+            },
+            type: 'char'
+        });
+
+  }, 2000)
+
+}
 
 })
 
