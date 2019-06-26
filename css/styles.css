@@ -387,7 +387,7 @@ background-repeat: no-repeat;
 }
 
 .tlt1, .tlt2, .tlt3 {
-  visibility: hidden;
+  display:none
 }
 
 h1.tlt10, h1.tlt101, h1.tlt102 {

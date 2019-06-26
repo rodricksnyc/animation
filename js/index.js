@@ -760,6 +760,10 @@ setTimeout(function() {
 
 $(document).ready(function () {
 
+  $('.tlt1').fadeIn();
+    $('.tlt2').fadeIn()
+      $('.tlt3').fadeIn()
+
   var $tlt1 = $('.tlt1').textillate({
       autoStart: true,
       selector: '.tlt1',
