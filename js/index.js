@@ -733,9 +733,9 @@ setTimeout(function() {
 
 setTimeout(function() {
   $('.blocks701 .content-thirdLast').removeClass('transparent');
-  var $tlt103 = $('.tlt103').textillate({
+  var $tlt104 = $('.tlt104').textillate({
       autoStart: true,
-      selector: '.tlt103',
+      selector: '.tlt104',
       loop: false,
       minDisplayTime: 1000,
       initialDelay: 200,

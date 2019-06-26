@@ -170,7 +170,7 @@ background-repeat: no-repeat;
 .blocks700 {
       position: absolute;
       z-index: 28;
-      top: 1300px;
+      top: 1318px;
       /* left: 100px; */
       display: flex;
       justify-content: center;
@@ -346,6 +346,14 @@ background-repeat: no-repeat;
 
 }
 
+.text4 {
+  position: absolute;
+      right: -23px;
+      top: 223px;
+      max-width: 100px;
+
+}
+
 #bubble1 {
     max-width: 267px;
     position: absolute;
@@ -371,11 +379,11 @@ background-repeat: no-repeat;
 }
 
 #bubble4 {
-  max-width: 305px;
     position: absolute;
-    right: -95px;
-    top: 340px;
-    max-height: 287px;
+      right: -114px;
+      top: 340px;
+
+      min-width: 261px;
 }
 
 .colFlex {
@@ -390,7 +398,7 @@ background-repeat: no-repeat;
   display:none
 }
 
-h1.tlt10, h1.tlt101, h1.tlt102 {
+h1.tlt10, h1.tlt101, h1.tlt102, h1.tlt104 {
   font-size:28px !important;
   font-weight:500 !important;
   text-align: left;
@@ -424,6 +432,15 @@ h1.tlt10, h1.tlt101, h1.tlt102 {
       top: 136px;
       color: white;
       font-family: 'Roboto', sans-serif;
+}
+
+#bText4 {
+  position: absolute;
+    top: 341px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    left: -129px;
+    min-width: 228px;
 }
 
  #wrapper {
