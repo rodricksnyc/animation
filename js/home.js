@@ -603,7 +603,7 @@ if ($('.blocks601').hasClass('active2')) {
       }, 1900)
 
       setTimeout(function() {
-            $('.blocks601 .content-last').removeClass('transparent').addClass('animated jackInTheBox')
+            $('.blocks601 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
       }, 2100)
 
@@ -823,7 +823,7 @@ setTimeout(function() {
 }, 2000)
 
 setTimeout(function() {
-      $('.blocks801 .content-last').removeClass('transparent').addClass('animated jackInTheBox')
+      $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
 }, 2300)
 
@@ -949,7 +949,7 @@ setTimeout(function() {
       //     type: 'char'
       // });
 
-}, 2000)
+}, 1000)
 
 }
 
