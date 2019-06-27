@@ -467,33 +467,40 @@ $('.blocks500 .content-fifthLast').removeClass('transparent').addClass('animated
 
 }, 1000)
 
+setTimeout(function() {
+$('.blocks500 .content-sixthLast').removeClass('transparent').addClass('animated bounceInDown')
 
+}, 2700)
 
+setTimeout(function() {
+$('.blocks500 .content-seventhLast').removeClass('transparent').addClass('animated fadeInLeftBig')
+
+}, 2800)
 
 setTimeout(function() {
   $('.blocks501 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-}, 1300)
+}, 1500)
 
 setTimeout(function() {
     $('.blocks501 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1500)
+}, 1700)
 
 setTimeout(function() {
     $('.blocks501 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1800)
+}, 1900)
 
 setTimeout(function() {
     $('.blocks501 .content-last').removeClass('transparent').addClass('animated jackInTheBox')
 
-}, 2200)
+}, 2100)
 
 setTimeout(function() {
     $('.blocks501 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 2400)
+}, 4000)
 
 setTimeout(function() {
 $('.blocks501 .content-thirdLast').removeClass('transparent');
@@ -515,7 +522,7 @@ var $tlt101 = $('.tlt101').textillate({
     type: 'char'
 });
 
-}, 2600)
+}, 4100)
 
 
 }
