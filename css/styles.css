@@ -1268,7 +1268,7 @@ justify-content: space-around;
 
 /* media queries */
 
-@media (max-width:1199px) and (min-width:1025px) {
+/* @media (max-width:1199px) and (min-width:1025px) {
 
   #wrapper {
     max-width:768px;
@@ -1293,7 +1293,7 @@ justify-content: space-around;
     right: 0px;
 
   }
-}
+} */
 
 
 @media (max-width:1024px) and (min-width:992px) {
@@ -1313,7 +1313,7 @@ justify-content: space-around;
     animation: slide 120s linear infinite;
   }
 
-  .blocks40 {
+  /* .blocks40 {
     position: absolute;
     z-index: 28;
     top: 180px;
@@ -1333,7 +1333,7 @@ justify-content: space-around;
 
     left: 040px;
 
-  }
+  } */
 
 
 }
