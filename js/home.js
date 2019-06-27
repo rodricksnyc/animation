@@ -715,7 +715,7 @@ setTimeout(function() {
 }, 1800)
 
 setTimeout(function() {
-    $('.blocks701 .content-last').removeClass('transparent').addClass('animated jackInTheBox')
+    $('.blocks701 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
 }, 2200)
 
@@ -808,7 +808,7 @@ setTimeout(function() {
 
 
 setTimeout(function() {
-    $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInDown')
+    $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
 }, 1500)
 
