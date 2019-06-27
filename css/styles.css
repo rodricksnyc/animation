@@ -14,7 +14,7 @@ body {
 
   height: auto;
   width: auto;
-  
+
   height:auto;
   min-height:300px;
   animation: slide 120s linear infinite;
@@ -633,7 +633,7 @@ h1.tlt105 {
 }
 
 p.tlt106 {
-  font-size:14px;
+  font-size:16px;
   text-align:left;
   font-family: 'Roboto', sans-serif;
 }
@@ -644,7 +644,47 @@ p.tlt107 {
   font-family: 'Roboto', sans-serif;
 }
 
+#smallS {
+  position:absolute;
+  z-index:9;
+  top: 45px;
+  left: 16px;
+}
 
+#smallS2 {
+  position:absolute;
+  z-index:9;
+  top: 88px;
+  left: 65px;
+}
+
+#bigS {
+  position:absolute;
+  z-index:9;
+  top: 39px;
+  left: -34px;
+}
+
+#bigS2 {
+  position:absolute;
+  z-index:9;
+  top: 100px;
+  left: 74px;
+}
+
+#mediumS {
+  position:absolute;
+  z-index:9;
+  top: 26px;
+  left: -48px;
+}
+
+#mediumS2 {
+  position:absolute;
+  z-index: 9;
+    top: 88px;
+    left: 120px;
+}
 
 #bText1 {
   max-width: 253px;
@@ -1089,8 +1129,8 @@ justify-content: space-around;
 
 @-webkit-keyframes pulse {
   from {
-    -webkit-transform: scale3d(1.01, 1.01, 1.01);
-    transform: scale3d(1.01, 1.01, 1.01);
+    -webkit-transform: scale3d(1.02, 1.02, 1.02);
+    transform: scale3d(1.02, 1.02, 1.02);
   }
 
   50% {

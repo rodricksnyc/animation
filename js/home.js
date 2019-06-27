@@ -805,33 +805,80 @@ setTimeout(function() {
 
 }, 800)
 
+setTimeout(function() {
+      $('.blocks800 .content-sixthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 900)
+setTimeout(function() {
+      $('.blocks800 .content-seventhLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 1000)
+setTimeout(function() {
+      $('.blocks800 .content-eighthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 1100)
+
+
+setTimeout(function() {
+      $('.blocks800 .content-ninthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1400)
+
+setTimeout(function() {
+      $('.blocks800 .content-tenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1500)
+
+
+setTimeout(function() {
+      $('.blocks800 .content-eleventhLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1600)
+
+setTimeout(function() {
+      $('.blocks800 .content-twelfthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1700)
+
+setTimeout(function() {
+      $('.blocks800 .content-thirteenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1800)
+
+
+setTimeout(function() {
+      $('.blocks800 .content-fourthteenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1900)
+
+//edit this elizabeth
 
 
 setTimeout(function() {
     $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-}, 1500)
+}, 2200)
 
 setTimeout(function() {
       $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1800)
+}, 3000)
 
 setTimeout(function() {
       $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
 
-}, 2000)
+}, 3500)
 
 setTimeout(function() {
       $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 2300)
+}, 2600)
 
 
   setTimeout(function() {
       $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
 
-  }, 3400)
+  }, 4000)
 
   setTimeout(function() {
         $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
@@ -854,12 +901,12 @@ setTimeout(function() {
             type: 'char'
         });
 
-  }, 3500)
+  }, 4300)
 
   setTimeout(function() {
       $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
 
-  }, 5200)
+  }, 5800)
 
 
 
