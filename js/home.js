@@ -373,7 +373,7 @@ setTimeout(function() {
       }, 5200)
 
       setTimeout(function() {
-            $('.blocks43 .content-last').removeClass('transparent').addClass('animated jackInTheBox')
+            $('.blocks43 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
       }, 5500)
 
@@ -493,7 +493,7 @@ setTimeout(function() {
 }, 1900)
 
 setTimeout(function() {
-    $('.blocks501 .content-last').removeClass('transparent').addClass('animated jackInTheBox')
+    $('.blocks501 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
 }, 2100)
 
