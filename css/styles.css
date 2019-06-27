@@ -173,6 +173,7 @@ margin-top:300px;
   overflow: hidden;
   padding-right: 1em;
   padding-left: 1em;
+  padding-bottom:1em;
 }
 
 .blocks500 {
@@ -341,6 +342,10 @@ display:flex;
 -moz-justify-content: center;
 -ms-justify-content: center;
 justify-content: center;
+-webkit-align-items: center;
+-moz-align-items: center;
+-ms-align-items: center;
+align-items: center;
   overflow: hidden;
   padding-right: 4em;
   padding-left: 4em;
@@ -424,6 +429,10 @@ justify-content: center;
   max-width: 133px;
 }
 
+.pt1 {
+  padding-top:5px;
+}
+
 #horizontal {
 display: -webkit-flex;
 display: -moz-flex;
@@ -433,6 +442,10 @@ display:flex;
 -moz-justify-content: center;
 -ms-justify-content: center;
 justify-content: center;
+-webkit-align-items: center;
+-moz-align-items: center;
+-ms-align-items: center;
+align-items: center;
 }
 
 #m2 {
