@@ -14,7 +14,7 @@ body {
 
   height: auto;
   width: auto;
-
+  min-width: 3000px;
   height:auto;
   min-height:300px;
   animation: slide 120s linear infinite;
