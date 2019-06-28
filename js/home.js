@@ -588,6 +588,12 @@ if ($('.blocks601').hasClass('active2')) {
 
 
       setTimeout(function() {
+            $('.blocks620 .content-top').removeClass('transparent').addClass('animated  slideInRight')
+
+      }, 1200)
+
+
+      setTimeout(function() {
           $('.blocks601 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
       }, 1500)
