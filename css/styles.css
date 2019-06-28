@@ -1949,9 +1949,25 @@ width: 95px;
   }
 
   .blocks42 {
-    left: 54px;
-    top: 150px;
+
+      top: 150px;
       max-width: 300px;
+      position: absolute;
+      z-index: 28;
+
+      overflow: hidden;
+      padding-right: 1em;
+      padding-left: 1em;
+      right: 0px;
+      padding-bottom: 2em;
+
+      vertical-align: middle;
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
   }
 
   .grass1 {
@@ -2016,8 +2032,8 @@ width: 95px;
     position: absolute;
     z-index: 28;
     top: 367px;
-    left: 0px;
-    right:0px;
+    left: 0;
+    right:0;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -2026,8 +2042,14 @@ width: 95px;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    vertical-align: middle;
 }
 
 #ex1 {
@@ -2077,24 +2099,25 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     max-width: 60px;
 }
 
+
+
 .blocks500 {
     position: absolute;
     z-index: 28;
     top: 850px;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
     overflow: hidden;
     padding-right: 1em;
     padding-left: 1em;
-    right: 48px;
+    right: 0px;
     padding-bottom: 2em;
     max-width: 300px;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #bText1 {
