@@ -20,6 +20,10 @@ body {
   animation: slide 120s linear infinite;
 }
 
+  .showOnMobile {
+    display:none;
+  }
+
 #bow {
   position: absolute;
     z-index: 9999;
@@ -1676,6 +1680,7 @@ max-width:80px;
     flex-direction: column;
 }
 
+
 .pt1 {
     padding-top: 0px;
 
@@ -1894,6 +1899,7 @@ width: 95px;
 
   .mobile {
     margin-top:10em;
+    width:100%;
   }
 
 
@@ -1942,12 +1948,178 @@ width: 95px;
 
   }
 
+  .blocks42 {
+    left: 54px;
+    top: 150px;
+      max-width: 300px;
+  }
+
+  .grass1 {
+    position: absolute;
+    top: 142px;
+    z-index: 80;
+    left: -4px;
+    min-width: 150px;
+}
+
+#m2 {
+    margin-top: 37px;
+}
+
+.colAbsolute2 {
+    position: absolute;
+    top: 127px;
+    z-index: 80;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    left: -26px;
+}
+
+.colAbsolute {
+  top:105px;
+}
+
+.grass2 {
+  max-width:75px;
+}
+
+.grass3 {
+  max-width:60px;
+}
+
+.house {
+  margin-right:0em;
+  padding-right: 5px;
+  margin-top: 12px;
+}
+
+.house1 {
+  margin-right:0em;
+  padding-right: 5px;
+  margin-top:40px;
+}
+
+.text1 {
+    position: absolute;
+    right: -31px;
+    top: -50px;
+    max-width: 70px;
+}
+
+.blocks43 {
+    position: absolute;
+    z-index: 28;
+    top: 367px;
+    left: 0px;
+    right:0px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#ex1 {
+    position: absolute;
+    top: 75px;
+    max-width: 64px;
+    right: 86px;
+    min-width: 66px;
+}
+
+
+h1.tlt10, h1.tlt101, h1.tlt102, h1.tlt104 {
+    font-size: 24px !important;
+
+}
+
+
+p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
+  font-size:13px
+}
+
+#bubble1 {
+
+    position: relative;
+    right: 0px;
+
+    max-height: 218px;
+    padding-top: 0em;
+    top: 47px;
+}
+
+#bText1 {
+    max-width: 238px;
+    position: absolute;
+    right: 0px;
+    top: 235px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    left: 87px;
+}
+
+#red1 {
+
+    max-width: 125px;
+    position:relative;
+    top: 35px;
+    left: 0px;
+    right: 0px;
+}
+
+#stripe {
+    position: relative;
+    right: 0px;
+    z-index: 999;
+    width: 100px;
+    left: 0px;
+}
+
+.colAbsolute3 {
+    position: absolute;
+    top: 105px;
+    z-index: -1;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    right: -11px;
+}
+.colAbsolute4 {
+    position: absolute;
+    top: 128px;
+    z-index: 80;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    right: -15px;
+}
 
   .blocks40 {
     position: absolute;
     z-index: 28;
-    top: 89px;
-    right: 50px;
+    top: 76px;
+    right: 27px;
 
   }
 
