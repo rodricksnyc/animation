@@ -2059,6 +2059,44 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     top: 47px;
 }
 
+#new {
+  top: 132px;
+}
+#bow {
+    position: absolute;
+    z-index: 9999;
+    right: 44px;
+    top: 24px;
+
+  }
+#target {
+    position: absolute;
+    z-index: 9998;
+    right: 22px;
+    top: 51px;
+    max-width: 60px;
+}
+
+.blocks500 {
+    position: absolute;
+    z-index: 28;
+    top: 850px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-right: 1em;
+    padding-left: 1em;
+    right: 48px;
+    padding-bottom: 2em;
+    max-width: 300px;
+}
+
 #bText1 {
     max-width: 238px;
     position: absolute;
