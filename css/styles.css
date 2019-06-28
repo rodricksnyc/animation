@@ -1541,10 +1541,10 @@ max-width:80px;
 }
 
 .blocks42 {
-    position: absolute;
-    z-index: 28;
+    position:initial;
+    /* z-index: 28;
     top: 285px;
-    left: 20px;
+    left: 20px; */
     padding-right: 2em;
     padding-left: 2em;
 }
@@ -1951,22 +1951,17 @@ width: 95px;
 
   .blocks42 {
 
-      top: 150px;
+
       max-width: 300px;
-      position: absolute;
-      z-index: 28;
+      position: initial;
+
 
       overflow: hidden;
       padding-right: 1em;
       padding-left: 1em;
-      right: 0px;
+
       padding-bottom: 2em;
 
-      vertical-align: middle;
-      display: inline-block;
-      position: absolute;
-      left: 0;
-      right: 0;
       margin-left: auto;
       margin-right: auto;
   }
@@ -2049,11 +2044,9 @@ width: 95px;
 }
 
 .blocks43 {
-    position: absolute;
-    z-index: 28;
+    position: initial;
     top: 367px;
-    left: 0;
-    right:0;
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -2070,14 +2063,12 @@ width: 95px;
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
+    margin-bottom:4em;
 }
 
 .blocks501 {
-    position: absolute;
-    z-index: 28;
-    top: 1000px;
-    right: 0;
-    left: 0;
+    position: initial;
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -2090,6 +2081,7 @@ width: 95px;
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
+    margin-bottom:15em;
 
   }
 #ex1 {
@@ -2171,8 +2163,8 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 
 
 .blocks500 {
-    position: absolute;
-    z-index: 28;
+    position:initial;
+
     top: 850px;
     overflow: hidden;
     padding-right: 1em;
@@ -2181,19 +2173,14 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     padding-bottom: 2em;
     max-width: 300px;
     vertical-align: middle;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    right: 0;
+
     margin-left: auto;
     margin-right: auto;
 }
 
 .blocks601 {
-    position: absolute;
-    z-index: 28;
-    top: 2000px;
-    /* right: -48px; */
+    position: initial;
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -2203,12 +2190,6 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     -ms-flex-direction: column;
     flex-direction: column;
     vertical-align: middle;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #bText1 {
@@ -2226,9 +2207,8 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 }
 
 .blocks700 {
-    position: absolute;
-    z-index: 999999999;
-    top: 2540px;
+    position: initial;
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -2237,13 +2217,10 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     -moz-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
-    /* overflow: hidden; */
+        padding-bottom: 0em;
     padding-right: 1em;
     padding-left: 1em;
-    /* right: 404px; */
-    /* padding-bottom: 1em; */
-    left: 0;
-    right: 0;
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -2357,10 +2334,8 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 }
 
 .blocks802 {
-    position: absolute;
-    z-index: 32;
-    top: 3500px;
-    /* right: 34px; */
+    position: initial;
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -2384,10 +2359,8 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 }
 
 .blocks701 {
-   position: absolute;
-   z-index: 9999999;
-   top: 2700px;
-   /* right: 846px; */
+   position: initial;
+
    display: -webkit-flex;
    display: -moz-flex;
    display: -ms-flexbox;
@@ -2396,9 +2369,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
    -moz-flex-direction: column;
    -ms-flex-direction: column;
    flex-direction: column;
-   left: 0;
-   right: 0;
-   /* min-width: 125px; */
+
    align-items: center;
    margin-left: auto;
    margin-right: auto;
@@ -2462,6 +2433,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     align-items: center;
     vertical-align: middle;
     min-width: 225px;
+        margin-bottom: 15em;
 }
 
 
@@ -2486,10 +2458,8 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 
 
 .blocks600 {
-  position: absolute;
-    z-index: 28;
-    top: 1650px;
-    /* left: 150px; */
+  position: initial;
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -2502,23 +2472,19 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     padding-right: 1em;
     padding-left: 1em;
 
-    right: 0;
-    left: 0;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
+    margin-bottom:3.5em;
 }
 
 #bubble3 {
-    position: absolute;
-
-    top: 50px;
-
+    position: initial;
+    margin-top:3em;
     max-height: 276px;
-    left: 3px;
-    right: 0;
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -2623,7 +2589,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
   .blocks40 {
     position: absolute;
     z-index: 28;
-    top: 76px;
+    top: -90px;
     right: 27px;
 
   }
@@ -2665,11 +2631,8 @@ p {
 }
 
 .blocks800 {
-    position: absolute;
-    z-index: 28;
-    top: 3330px;
-    right:0;
-    left:0;
+    position: initial;
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -2685,7 +2648,7 @@ p {
     overflow: hidden;
     padding-right: 4em;
     padding-left: 6em;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
 
     margin-left: auto;
     margin-right: auto;
@@ -2705,7 +2668,7 @@ p {
     left: 3px;
     max-height: 300px;
     padding-top: 0em;
-    top: 325px;
+    top: 0px;
     max-width: 254px;
     right: 0;
     left: 0;
@@ -2715,26 +2678,33 @@ p {
     align-items: center;
     vertical-align: middle;
     min-width: 254px;
+    margin-bottom:3em
 }
 
 #finish {
-    position: absolute;
-    z-index: 999999999999;
+    position: initial;
+
     top: 4175px;
     left: 25px;
 }
 
+.city {
+    /* position: absolute;
+    z-index: 99999;
+    max-width: 280px;
+    bottom: -224px; */
+}
+
 #bText5 {
     position: absolute;
-    /* right: -253px; */
-    top: 321px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    /* left: -11px; */
-    min-width: 248px;
-    max-width: 248px;
     right: 0;
     left: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    top:0px;
+    min-width: 248px;
+    max-width: 248px;
+
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -2743,16 +2713,13 @@ p {
 }
 
 .blocks802 {
-    position: absolute;
-    z-index: 32;
-    top: 3500px;
-    right: 0px;
+    position: initial;
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-    left: 3px;
-    right: 0;
+
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -2777,9 +2744,7 @@ p {
 
 
 .blocks801 {
-    position: absolute;
-    z-index: 28;
-    top: 3575px;
+    position: initial;
 
     display: -webkit-flex;
     display: -moz-flex;
@@ -2790,9 +2755,6 @@ p {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-
-    left: 0;
-    right: 0;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
