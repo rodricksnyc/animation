@@ -1352,7 +1352,7 @@ justify-content: space-around;
     width: auto;
     min-width: 768px;
     height:auto;
-    min-height:300px;
+    min-height:260px;
     animation: slide 120s linear infinite;
   }
 
@@ -1878,5 +1878,113 @@ width: 95px;
     max-width: 73px;
 }
 
+
+}
+
+@media (max-width:767px) {
+  .hideOnMobile {
+    display:none;
+  }
+
+  .showOnMobile {
+    display:block;
+    background: #72b5e4;
+    overflow-x: hidden;
+  }
+
+  .mobile {
+    margin-top:10em;
+  }
+
+
+  .sliding-background {
+    height: auto;
+        width: auto;
+        min-width: 1900px;
+        height: auto;
+        min-height: 145px;
+        animation: slide 120s linear infinite;
+        padding-top: 3em;
+  }
+
+  .firstSetOfWords {
+    position: absolute;
+    z-index: 99;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: left;
+    top: 43px;
+    left: 0px;
+    /* max-width: 320px; */
+    padding-left: 2em;
+    padding-right: 2em;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.blocks12 {
+    position: absolute;
+    z-index: 0;
+    top: 35px;
+}
+
+.blocks41 {
+    position: absolute;
+    z-index: 28;
+    top: 10px;
+    left: 2em;
+
+  }
+
+
+  .blocks40 {
+    position: absolute;
+    z-index: 28;
+    top: 89px;
+    right: 50px;
+
+  }
+
+.yellow2 {
+    position: relative;
+    z-index: 9999;
+    left: 42px;
+    top: -56px;
+    width: 140px;
+    animation-duration: 5s;
+}
+
+.yellow1 {
+    position: relative;
+    z-index: 9999999999;
+    left: 82px;
+    top: 41px;
+    width: 57px;
+    animation-duration: 6s;
+}
+h1.darkBlue {
+    color: #2e3192;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 2.2em;
+    margin-bottom: 0em;
+}
+h3 {
+    margin-top: .2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    margin-bottom: 0em;
+}
+
+p {
+  font-size:14px;
+}
 
 }
