@@ -2022,10 +2022,19 @@ width: 95px;
 }
 
 .text1 {
+
     position: absolute;
-    right: -31px;
+    right: 0;
     top: -50px;
     max-width: 70px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    vertical-align: middle;
+    z-index: 999999999;
+    left: 0;
+
 }
 
 .blocks43 {
@@ -2052,12 +2061,39 @@ width: 95px;
     vertical-align: middle;
 }
 
-#ex1 {
+.blocks501 {
     position: absolute;
+    z-index: 28;
+    top: 1000px;
+    right: 0;
+    left: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    vertical-align: middle;
+
+  }
+#ex1 {
+  position: absolute;
     top: 75px;
     max-width: 64px;
-    right: 86px;
+
     min-width: 66px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    vertical-align: middle;
+    right: 0;
+
 }
 
 
@@ -2137,14 +2173,73 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     top: 35px;
     left: 0px;
     right: 0px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#ex2 {
+    position: absolute;
+    top: 157px;
+    /* right: -108px; */
+    z-index: -1;
+    max-width: 75px;
+    left: -63px;
+}
+
+#red2 {
+  max-width: 125px;
+    position: relative;
+    top: 180px;
+    left: 0;
+    right: 0;
+    min-width: 125px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#ex2 {
+    position: absolute;
+    top: 150px;
+
+    z-index: -1;
+    max-width: 75px;
+    left: -63px;
 }
 
 #stripe {
     position: relative;
-    right: 0px;
+    right: 0;
     z-index: 999;
     width: 100px;
-    left: 0px;
+    left: 0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#stripe2 {
+    position: absolute;
+
+    overflow: hidden;
+    z-index: 999;
+    top: 91px;
+    width: 100px;
+
+    right: 0;
+    left: 0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    vertical-align: middle;
 }
 
 .colAbsolute3 {
