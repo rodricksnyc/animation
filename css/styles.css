@@ -2191,13 +2191,13 @@ width: 95px;
 
 
 h1.tlt10, h1.tlt101, h1.tlt102, h1.tlt104 {
-    font-size: 24px !important;
+    font-size: 25px !important;
 
 }
 
 
 p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
-  font-size:13px
+  font-size:15px
 }
 
 #bubble1 {
@@ -2205,9 +2205,10 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     position: relative;
     right: 0;
     left:0;
-    max-height: 218px;
+    max-height: 100%;
     padding-top: 0em;
     top: 130px;
+    width: 275px;
 }
 
 #new {
@@ -2237,8 +2238,8 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
       margin-right: auto;
       align-items: center;
       vertical-align: middle;
-      max-width: 195px;
-      min-width: 195px;
+      max-width: 275px;
+      min-width: 275px;
 }
 
 .lawn {
@@ -2284,7 +2285,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 #bText1 {
   position: absolute;
     right: 0;
-    top: 182px;
+    top: 188px;
     color: white;
     font-family: 'Roboto', sans-serif;
 
@@ -2539,20 +2540,22 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
   position: relative;
     right: 0;
     left: 3px;
-    max-height: 300px;
+    max-height: 100%;
     padding-top: 0em;
     top: 135px;
-    max-width: 185px;
+    max-width: 100%;
+      width: 275px;
+      height: 260px;
 }
 
 #bubble4 {
     position: relative;
     right: 0;
     left: 3px;
-    max-height: 300px;
+    max-height: 100%;
     padding-top: 0em;
     top: 207px;
-    max-width: 225px;
+    max-width: 100%;
     right: 0;
     left: 0;
     align-items: center;
@@ -2560,8 +2563,10 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
-    min-width: 225px;
-        margin-bottom: 15em;
+    min-width: 100%;
+    margin-bottom: 15em;
+        width: 275px;
+            height: 350px;
 }
 
 
@@ -2570,10 +2575,10 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     position: relative;
     right: 0;
     left: 3px;
-    max-height: 300px;
+    max-height: 308px;
     padding-top: 0em;
     top: 207px;
-    max-width: 225px;
+    max-width: 275px;
     right: 0;
     left: 0;
     align-items: center;
@@ -2581,7 +2586,9 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
-    min-width: 225px;
+    min-width: 275px;
+    width: 275px;
+        height: 308px;
 }
 
 
@@ -2611,8 +2618,8 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 #bubble3 {
     position: initial;
     margin-top:9em;
-    max-height: 276px;
-
+    max-height: 335px;
+    min-height: 335px;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -2658,9 +2665,9 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 }
 
 #bText4 {
-    max-width: 235px;
+    max-width: 275px;
     position: absolute;
-    /* right: -264px; */
+    width: 275px;
     top: 320px;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -2798,10 +2805,10 @@ p {
     position: relative;
     right: 0;
     left: 3px;
-    max-height: 300px;
+    max-height: 100%;
     padding-top: 0em;
     top: 0px;
-    max-width: 254px;
+    max-width: 100%;
     right: 0;
     left: 0;
     align-items: center;
@@ -2809,7 +2816,7 @@ p {
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
-    min-width: 254px;
+    min-width: 100%;
     margin-bottom:0em;
     margin-top:0em;
 }
