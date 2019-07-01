@@ -1145,13 +1145,33 @@ $('section').each(function() {
     var elementTop = $(this).offset().top;
     var elementBottom = $(this).offset().top + $(this).outerHeight();
 
-    if ((screenBottom > elementTop + ($(this).find('.heros').height() + 100)) && (screenTop < elementBottom)) {
+    if ((screenBottom > elementTop + ($(this).find('.heros').height() + 50)) && (screenTop < elementBottom)) {
         $('section').removeClass('active2')
         $(this).addClass('active2')
     } else {
         $(this).removeClass('active2')
     }
 })
+
+
+if ($('.blocks410').hasClass('active2')) {
+      setTimeout(function() {
+          $('.blocks410 .content-top').removeClass('transparent').addClass('animated infinite pulse')
+
+      }, 10)
+
+      setTimeout(function() {
+            $('.blocks410 .content-middle').removeClass('transparent').addClass('animated  infinite pulse')
+
+
+      }, 50)
+
+
+
+}
+
+
+
 
 if ($('.blocks2000').hasClass('active2')) {
 
@@ -1203,27 +1223,27 @@ if ($('.blocks4000').hasClass('active2')) {
 setTimeout(function() {
     $('.blocks4000 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-}, 100)
+}, 10)
 
 setTimeout(function() {
       $('.blocks4000 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 500)
+}, 40)
 
 setTimeout(function() {
       $('.blocks4000 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 900)
+}, 80)
 
 setTimeout(function() {
       $('.blocks4000 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 1200)
+}, 120)
 
 setTimeout(function() {
       $('.blocks4000 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 1600)
+}, 800)
 
 setTimeout(function() {
   $('.blocks4000 .content-thirdLast').removeClass('transparent');
@@ -1245,7 +1265,12 @@ setTimeout(function() {
       type: 'char'
   });
 
-}, 2000)
+}, 1000)
+
+setTimeout(function() {
+      $('.blocks4000 .content-fourthLast').removeClass('transparent').addClass('animated scale-in-left')
+
+}, 1600)
 
 
 }
@@ -1360,6 +1385,11 @@ var $tlt101 = $('.tlt101').textillate({
 
 }, 1100)
 
+setTimeout(function() {
+    $('.blocks5001 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
+
+}, 1300)
+
 
 }
 
@@ -1424,27 +1454,27 @@ if ($('.blocks6001').hasClass('active2')) {
 setTimeout(function() {
     $('.blocks6001 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-}, 100)
+}, 10)
 
 setTimeout(function() {
       $('.blocks6001 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 300)
+}, 20)
 
 setTimeout(function() {
       $('.blocks6001 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 500)
+}, 30)
 
 setTimeout(function() {
       $('.blocks6001 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 700)
+}, 40)
 
 setTimeout(function() {
       $('.blocks6001 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 900)
+}, 200)
 
 setTimeout(function() {
   $('.blocks6001 .content-thirdLast').removeClass('transparent');
@@ -1466,7 +1496,13 @@ setTimeout(function() {
       type: 'char'
   });
 
-}, 1100)
+}, 300)
+
+
+setTimeout(function() {
+      $('.blocks6001 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
+
+}, 400)
 
 }
 
@@ -1524,27 +1560,27 @@ if ($('.blocks7001').hasClass('active2')) {
 setTimeout(function() {
   $('.blocks7001 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-}, 100)
+}, 10)
 
 setTimeout(function() {
     $('.blocks7001 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 300)
+}, 30)
 
 setTimeout(function() {
     $('.blocks7001 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 500)
+}, 50)
 
 setTimeout(function() {
     $('.blocks7001 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 700)
+}, 100)
 
 setTimeout(function() {
     $('.blocks7001 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 900)
+}, 500)
 
 setTimeout(function() {
 $('.blocks7001 .content-thirdLast').removeClass('transparent');
@@ -1566,7 +1602,12 @@ var $tlt104 = $('.tlt104').textillate({
     type: 'char'
 });
 
-}, 1100)
+}, 600)
+
+setTimeout(function() {
+    $('.blocks7001 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
+
+}, 700)
 
 }
 
@@ -1668,22 +1709,22 @@ if ($('.blocks8001').hasClass('active2')) {
 setTimeout(function() {
     $('.blocks8001 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-}, 200)
+}, 20)
 
 setTimeout(function() {
       $('.blocks8001 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1000)
+}, 30)
 
 setTimeout(function() {
       $('.blocks8001 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
 
-}, 1500)
+}, 40)
 
 setTimeout(function() {
       $('.blocks8001 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 2100)
+}, 50)
 
 }
 
@@ -1695,7 +1736,7 @@ if ($('.blocks8002').hasClass('active2')) {
 setTimeout(function() {
     $('.blocks8002 .content-top').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 200)
+}, 100)
 
 setTimeout(function() {
       $('.blocks8002 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
@@ -1718,7 +1759,12 @@ setTimeout(function() {
           type: 'char'
       });
 
-}, 400)
+}, 200)
+
+setTimeout(function() {
+    $('.blocks8002 .content-bottom').removeClass('transparent').addClass('animated slideInUp')
+
+}, 300)
 
 
 }
@@ -1731,6 +1777,8 @@ setTimeout(function() {
 
 
 }
+
+
 
 
 
@@ -1776,6 +1824,4 @@ setTimeout(function() {
 }
 
 
-
-
-})
+});

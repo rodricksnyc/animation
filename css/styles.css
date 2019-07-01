@@ -1951,7 +1951,7 @@ width: 95px;
     background: #72b5e4;
     overflow-x: hidden;
     height: auto;
-    padding-bottom: 10em;
+    padding-bottom: 0em;
   }
 
   .mobile {
@@ -1997,10 +1997,10 @@ width: 95px;
     top: 35px;
 }
 
-.blocks41 {
+.blocks41, .blocks410 {
     position: absolute;
     z-index: 28;
-    top: 100px;
+    top: 628px;
     left: 2em;
 
   }
@@ -2020,6 +2020,7 @@ width: 95px;
 
       margin-left: auto;
       margin-right: auto;
+      margin-top:3em;
   }
 
   .grass1 {
@@ -2032,6 +2033,25 @@ width: 95px;
 
 #m2 {
     margin-top: 37px;
+}
+
+#whiteBox {
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 1em;
+    width: auto;
+    padding-bottom: 1em;
+    margin-top: 2em;
 }
 
 .colAbsolute2 {
@@ -2135,7 +2155,7 @@ width: 95px;
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
-    margin-bottom:4em;
+    margin-bottom:2em;
 }
 
 .blocks501, .blocks5001 {
@@ -2191,7 +2211,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 }
 
 #new {
-  top: 120px;
+  top: 118px;
 }
 #bow {
   position: absolute;
@@ -2217,8 +2237,8 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
       margin-right: auto;
       align-items: center;
       vertical-align: middle;
-      max-width: 190px;
-      min-width: 190px;
+      max-width: 195px;
+      min-width: 195px;
 }
 
 .lawn {
@@ -2790,7 +2810,8 @@ p {
     align-items: center;
     vertical-align: middle;
     min-width: 254px;
-    margin-bottom:3em
+    margin-bottom:0em;
+    margin-top:0em;
 }
 
 #finish {
