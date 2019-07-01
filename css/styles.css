@@ -1540,7 +1540,7 @@ max-width:80px;
     margin-top: 5em;
 }
 
-.blocks42 {
+.blocks42, .blocks2000 {
     position:initial;
     /* z-index: 28;
     top: 285px;
@@ -1949,7 +1949,7 @@ width: 95px;
 
   }
 
-  .blocks42 {
+  .blocks42, .blocks2000 {
 
 
       max-width: 300px;
@@ -2043,7 +2043,7 @@ width: 95px;
 
 }
 
-.blocks43 {
+.blocks43, .blocks4000 {
     position: initial;
     top: 367px;
 
@@ -2066,7 +2066,7 @@ width: 95px;
     margin-bottom:4em;
 }
 
-.blocks501 {
+.blocks501, .blocks5001 {
     position: initial;
 
     display: -webkit-flex;
@@ -2081,7 +2081,7 @@ width: 95px;
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
-    margin-bottom:15em;
+    /* margin-bottom:15em; */
 
   }
 #ex1 {
@@ -2162,7 +2162,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 }
 
 
-.blocks500 {
+.blocks500, .blocks5000 {
     position:initial;
 
     top: 850px;
@@ -2178,7 +2178,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     margin-right: auto;
 }
 
-.blocks601 {
+.blocks601, .blocks6001 {
     position: initial;
 
     display: -webkit-flex;
@@ -2206,7 +2206,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     vertical-align: middle;
 }
 
-.blocks700 {
+.blocks700, .blocks7000 {
     position: initial;
 
     display: -webkit-flex;
@@ -2457,7 +2457,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 }
 
 
-.blocks600 {
+.blocks600, .blocks6001 {
   position: initial;
 
     display: -webkit-flex;
@@ -2648,7 +2648,8 @@ p {
     overflow: hidden;
     padding-right: 4em;
     padding-left: 6em;
-    padding-bottom: 3em;
+    padding-bottom: 3
+    em;
 
     margin-left: auto;
     margin-right: auto;
