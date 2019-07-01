@@ -473,7 +473,7 @@ $('.blocks500 .content-sixthLast').removeClass('transparent').addClass('animated
 }, 2700)
 
 setTimeout(function() {
-$('.blocks500 .content-seventhLast').removeClass('transparent').addClass('animated fadeInLeftBig')
+$('.blocks500 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-tl')
 
 }, 2800)
 
@@ -1322,12 +1322,12 @@ $('.blocks5000 .content-fifthLast').removeClass('transparent').addClass('animate
 setTimeout(function() {
 $('.blocks5000 .content-sixthLast').removeClass('transparent').addClass('animated bounceInDown')
 
-}, 2700)
+}, 1300)
 
 setTimeout(function() {
-$('.blocks5000 .content-seventhLast').removeClass('transparent').addClass('animated fadeInLeftBig')
+$('.blocks5000 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-tl')
 
-}, 2800)
+}, 2000)
 
 
 
