@@ -2333,7 +2333,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     vertical-align: middle;
 }
 
-.blocks802 {
+.blocks802, .blocks8002 {
     position: initial;
 
     display: -webkit-flex;
@@ -2358,7 +2358,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     left: 0px;
 }
 
-.blocks701 {
+.blocks701, .blocks7001 {
    position: initial;
 
    display: -webkit-flex;
@@ -2630,7 +2630,7 @@ p {
   font-size:14px;
 }
 
-.blocks800 {
+.blocks800, .blocks8000 {
     position: initial;
 
     display: -webkit-flex;
@@ -2744,7 +2744,7 @@ p {
 }
 
 
-.blocks801 {
+.blocks801, .blocks8001 {
     position: initial;
 
     display: -webkit-flex;
