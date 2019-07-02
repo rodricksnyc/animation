@@ -309,78 +309,78 @@ setTimeout(function() {
       setTimeout(function() {
           $('.blocks41 .content-top').removeClass('transparent').addClass('animated infinite pulse')
 
-      }, 3100)
+      }, 2400)
 
       setTimeout(function() {
             $('.blocks41 .content-middle').removeClass('transparent').addClass('animated  infinite pulse')
 
 
-      }, 3200)
+      }, 2500)
 
 
       setTimeout(function() {
           $('.blocks42 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-      }, 3300)
+      }, 2600)
 
       setTimeout(function() {
             $('.blocks42 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 3400)
+      }, 2700)
 
       setTimeout(function() {
             $('.blocks42 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 3500)
+      }, 2800)
 
       setTimeout(function() {
             $('.blocks42 .content-last').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 3600)
+      }, 2900)
 
       setTimeout(function() {
             $('.blocks42 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 3700)
+      }, 3000)
       setTimeout(function() {
             $('.blocks42 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 3800)
+      }, 3100)
 
       setTimeout(function() {
             $('.blocks42 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 3900)
+      }, 3200)
 
       setTimeout(function() {
             $('.blocks42 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 4000)
+      }, 3300)
 
       setTimeout(function() {
           $('.blocks43 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-      }, 4400)
+      }, 3300)
 
       setTimeout(function() {
             $('.blocks43 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 4900)
+      }, 3300)
 
       setTimeout(function() {
             $('.blocks43 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 5200)
+      }, 3300)
 
       setTimeout(function() {
             $('.blocks43 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-      }, 5500)
+      }, 3400)
 
       setTimeout(function() {
             $('.blocks43 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-      }, 5900)
+      }, 3400)
 
       setTimeout(function() {
         $('.blocks43 .content-thirdLast').removeClass('transparent');
@@ -402,7 +402,7 @@ setTimeout(function() {
             type: 'char'
         });
 
-      }, 6000)
+      }, 3300)
 
 
 })
@@ -437,73 +437,73 @@ $('.blocks500 .content-top').removeClass('transparent').addClass('animated slide
 setTimeout(function() {
 $('.blocks500 .content-middle').removeClass('transparent').addClass('animated slideInUp')
 
-}, 100)
+}, 50)
 
 setTimeout(function() {
 $('.blocks500 .content-bottom').removeClass('transparent').addClass('animated slideInUp')
 
-}, 200)
+}, 100)
 
 setTimeout(function() {
 $('.blocks500 .content-last').removeClass('transparent').addClass('animated slideInUp')
 
-}, 400)
+}, 150)
 
 setTimeout(function() {
 $('.blocks500 .content-secondLast').removeClass('transparent').addClass('animated slideInUp')
 
-}, 700)
+}, 200)
 
 setTimeout(function() {
 $('.blocks500 .content-thirdLast').removeClass('transparent').addClass('animated slideInUp')
 
-}, 800)
+}, 300)
 
 setTimeout(function() {
 $('.blocks500 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
 
-}, 900)
+}, 400)
 
 
 setTimeout(function() {
 $('.blocks500 .content-fifthLast').removeClass('transparent').addClass('animated slideInUp')
 
-}, 1000)
+}, 500)
 
 setTimeout(function() {
 $('.blocks500 .content-sixthLast').removeClass('transparent').addClass('animated bounceInDown')
 
-}, 2700)
+}, 600)
 
 setTimeout(function() {
 $('.blocks500 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-tl')
 
-}, 2800)
+}, 700)
 
 setTimeout(function() {
   $('.blocks501 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-}, 1500)
+}, 900)
 
 setTimeout(function() {
     $('.blocks501 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1700)
+}, 1000)
 
 setTimeout(function() {
     $('.blocks501 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1900)
+}, 1000)
 
 setTimeout(function() {
     $('.blocks501 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 2100)
+}, 1100)
 
 setTimeout(function() {
     $('.blocks501 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 4000)
+}, 1100)
 
 setTimeout(function() {
 $('.blocks501 .content-thirdLast').removeClass('transparent');
@@ -525,7 +525,7 @@ var $tlt101 = $('.tlt101').textillate({
     type: 'char'
 });
 
-}, 4100)
+}, 1000)
 
 
 }
@@ -552,42 +552,42 @@ if ($('.blocks601').hasClass('active2')) {
       setTimeout(function() {
           $('.blocks600 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-      }, 100)
+      }, 10)
 
       setTimeout(function() {
             $('.blocks600 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 200)
+      }, 100)
 
       setTimeout(function() {
             $('.blocks600 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 300)
+      }, 200)
 
       setTimeout(function() {
             $('.blocks600 .content-last').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 400)
+      }, 300)
 
       setTimeout(function() {
             $('.blocks600 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 500)
+      }, 400)
 
       setTimeout(function() {
             $('.blocks600 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 600)
+      }, 500)
 
       setTimeout(function() {
             $('.blocks600 .content-fourthLast').removeClass('transparent');
 
-      }, 800)
+      }, 700)
 
       setTimeout(function() {
             $('.blocks600 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 1000)
+      }, 800)
 
 
       setTimeout(function() {
@@ -599,27 +599,27 @@ if ($('.blocks601').hasClass('active2')) {
       setTimeout(function() {
           $('.blocks601 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-      }, 1500)
+      }, 600)
 
       setTimeout(function() {
             $('.blocks601 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 1700)
+      }, 700)
 
       setTimeout(function() {
             $('.blocks601 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 1900)
+      }, 800)
 
       setTimeout(function() {
             $('.blocks601 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-      }, 2100)
+      }, 800)
 
       setTimeout(function() {
             $('.blocks601 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-      }, 2500)
+      }, 900)
 
       setTimeout(function() {
         $('.blocks601 .content-thirdLast').removeClass('transparent');
@@ -641,7 +641,7 @@ if ($('.blocks601').hasClass('active2')) {
             type: 'char'
         });
 
-      }, 2800)
+      }, 800)
 
 
     }
@@ -792,27 +792,27 @@ $('.blocks700 .content-twentyoneLast').removeClass('transparent').addClass('anim
 setTimeout(function() {
   $('.blocks701 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-}, 1300)
+}, 100)
 
 setTimeout(function() {
     $('.blocks701 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1500)
+}, 200)
 
 setTimeout(function() {
     $('.blocks701 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1800)
+}, 300)
 
 setTimeout(function() {
     $('.blocks701 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 2200)
+}, 400)
 
 setTimeout(function() {
     $('.blocks701 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 2400)
+}, 500)
 
 setTimeout(function() {
 $('.blocks701 .content-thirdLast').removeClass('transparent');
@@ -834,7 +834,7 @@ var $tlt104 = $('.tlt104').textillate({
     type: 'char'
 });
 
-}, 2600)
+}, 400)
 
 }
 
@@ -947,28 +947,28 @@ setTimeout(function() {
 setTimeout(function() {
     $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-}, 2200)
+}, 100)
 
 setTimeout(function() {
       $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 3000)
+}, 200)
 
 setTimeout(function() {
       $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
 
-}, 3500)
+}, 300)
 
 setTimeout(function() {
       $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 2600)
+}, 400)
 
 
   setTimeout(function() {
       $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
 
-  }, 4000)
+  }, 400)
 
   setTimeout(function() {
         $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
@@ -991,12 +991,12 @@ setTimeout(function() {
             type: 'char'
         });
 
-  }, 4300)
+  }, 300)
 
   setTimeout(function() {
       $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
 
-  }, 5800)
+  }, 1500)
 
 
 
@@ -1078,363 +1078,824 @@ setTimeout(function() {
 
 }
 
-else if ($(window).innerWidth() < 1024) {
+else if ($(window).innerWidth() <= 1024) {
   console.log("i hate shit")
 
-  $(window).on('scroll', function() {
-  var screenTop = $(window).scrollTop();
-  var screenBottom = $(window).scrollTop() + window.innerHeight;
+  // $(window).on('scroll', function() {
+  // var screenTop = $(window).scrollTop();
+  // var screenBottom = $(window).scrollTop() + window.innerHeight;
+  //
+  // $('section').each(function() {
+  //     var elementTop = $(this).offset().top;
+  //     var elementBottom = $(this).offset().top + $(this).outerHeight();
+  //
+  //     if ((screenBottom > elementTop + ($(this).find('.heros').height() - 200 )) && (screenTop < elementBottom)) {
+  //         $('section').removeClass('active2')
+  //         $(this).addClass('active2')
+  //     } else {
+  //         $(this).removeClass('active2')
+  //     }
+  // })
+  //
+  // if ($('.blocks43').hasClass('active2')) {
+  //
+  // setTimeout(function() {
+  //     $('.blocks43 .content-top').removeClass('transparent').addClass('animated slideInDown')
+  //
+  // }, 10)
+  //
+  // setTimeout(function() {
+  //       $('.blocks43 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 40)
+  //
+  // setTimeout(function() {
+  //       $('.blocks4000 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 80)
+  //
+  // setTimeout(function() {
+  //       $('.blocks43 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+  //
+  // }, 120)
+  //
+  // setTimeout(function() {
+  //       $('.blocks43 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
+  //
+  // }, 800)
+  //
+  // setTimeout(function() {
+  //   $('.blocks43 .content-thirdLast').removeClass('transparent');
+  //   var $tlt10 = $('.tlt10').textillate({
+  //       autoStart: true,
+  //       selector: '.tlt10',
+  //       loop: false,
+  //       minDisplayTime: 900,
+  //       initialDelay: 200,
+  //       in: {
+  //         effect: 'fadeInLeft',
+  //         delayScale: 1,
+  //         delay: 4,
+  //         sync: false,
+  //         shuffle: true,
+  //         reverse: false,
+  //         callback: function () {}
+  //       },
+  //       type: 'char'
+  //   });
+  //
+  // }, 1000)
+  //
+  // setTimeout(function() {
+  //       $('.blocks43 .content-fourthLast').removeClass('transparent').addClass('animated scale-in-left')
+  //
+  // }, 1600)
+  //
+  //
+  // }
+  //
+  // if ($('.blocks501').hasClass('active2')) {
+  //
+  //
+  //
+  // setTimeout(function() {
+  //   $('.blocks501 .content-top').removeClass('transparent').addClass('animated slideInDown')
+  //
+  // }, 100)
+  //
+  // setTimeout(function() {
+  //     $('.blocks501 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 300)
+  //
+  // setTimeout(function() {
+  //     $('.blocks501 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 500)
+  //
+  // setTimeout(function() {
+  //     $('.blocks501 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+  //
+  // }, 700)
+  //
+  // setTimeout(function() {
+  //     $('.blocks501 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
+  //
+  // }, 900)
+  //
+  // setTimeout(function() {
+  // $('.blocks501 .content-thirdLast').removeClass('transparent');
+  // var $tlt101 = $('.tlt101').textillate({
+  //     autoStart: true,
+  //     selector: '.tlt101',
+  //     loop: false,
+  //     minDisplayTime: 900,
+  //     initialDelay: 200,
+  //     in: {
+  //       effect: 'fadeInLeft',
+  //       delayScale: 1,
+  //       delay: 4,
+  //       sync: false,
+  //       shuffle: true,
+  //       reverse: false,
+  //       callback: function () {}
+  //     },
+  //     type: 'char'
+  // });
+  //
+  // }, 1100)
+  //
+  // setTimeout(function() {
+  //     $('.blocks501 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 1300)
+  //
+  //
+  // }
+  //
+  //
+  // if ($('.blocks601').hasClass('active2')) {
+  //
+  // setTimeout(function() {
+  //     $('.blocks601 .content-top').removeClass('transparent').addClass('animated slideInDown')
+  //
+  // }, 10)
+  //
+  // setTimeout(function() {
+  //       $('.blocks601 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 20)
+  //
+  // setTimeout(function() {
+  //       $('.blocks601 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 30)
+  //
+  // setTimeout(function() {
+  //       $('.blocks601 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+  //
+  // }, 40)
+  //
+  // setTimeout(function() {
+  //       $('.blocks601 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
+  //
+  // }, 200)
+  //
+  // setTimeout(function() {
+  //   $('.blocks601 .content-thirdLast').removeClass('transparent');
+  //   var $tlt102 = $('.tlt102').textillate({
+  //       autoStart: true,
+  //       selector: '.tlt102',
+  //       loop: false,
+  //       minDisplayTime: 900,
+  //       initialDelay: 200,
+  //       in: {
+  //         effect: 'fadeInLeft',
+  //         delayScale: 1,
+  //         delay: 4,
+  //         sync: false,
+  //         shuffle: true,
+  //         reverse: false,
+  //         callback: function () {}
+  //       },
+  //       type: 'char'
+  //   });
+  //
+  // }, 300)
+  //
+  //
+  // setTimeout(function() {
+  //       $('.blocks601 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 400)
+  //
+  // }
+  //
+  //
+  // if ($('.blocks701').hasClass('active2')) {
+  //
+  //
+  // setTimeout(function() {
+  //   $('.blocks701 .content-top').removeClass('transparent').addClass('animated slideInDown')
+  //
+  // }, 10)
+  //
+  // setTimeout(function() {
+  //     $('.blocks701 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 30)
+  //
+  // setTimeout(function() {
+  //     $('.blocks701 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 50)
+  //
+  // setTimeout(function() {
+  //     $('.blocks701 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+  //
+  // }, 100)
+  //
+  // setTimeout(function() {
+  //     $('.blocks701 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
+  //
+  // }, 500)
+  //
+  // setTimeout(function() {
+  // $('.blocks701 .content-thirdLast').removeClass('transparent');
+  // var $tlt104 = $('.tlt104').textillate({
+  //     autoStart: true,
+  //     selector: '.tlt104',
+  //     loop: false,
+  //     minDisplayTime: 900,
+  //     initialDelay: 200,
+  //     in: {
+  //       effect: 'fadeInLeft',
+  //       delayScale: 1,
+  //       delay: 4,
+  //       sync: false,
+  //       shuffle: true,
+  //       reverse: false,
+  //       callback: function () {}
+  //     },
+  //     type: 'char'
+  // });
+  //
+  // }, 600)
+  //
+  // setTimeout(function() {
+  //     $('.blocks701 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 700)
+  //
+  // }
+  //
+  // if ($('.blocks1000').hasClass('active2')) {
+  // setTimeout(function() {
+  //       $('.blocks1000 .content-top').removeClass('transparent').addClass('animated  fadeInLeft')
+  //
+  // }, 100)
+  //
+  // }
+  //
+  // if ($('.blocks803').hasClass('active2')) {
+  // setTimeout(function() {
+  //     $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
+  //
+  // }, 400)
+  //
+  //
+  // }
+  //
+  //
+  //
+  // })
+  //
+  // $(window).on('scroll', function() {
+  // var screenTop = $(window).scrollTop();
+  // var screenBottom = $(window).scrollTop() + window.innerHeight;
+  //
+  // $('section').each(function() {
+  //     var elementTop = $(this).offset().top;
+  //     var elementBottom = $(this).offset().top + $(this).outerHeight();
+  //
+  //     if ((screenBottom > elementTop + ($(this).find('.heros').height() + 100 )) && (screenTop < elementBottom)) {
+  //         $('section').removeClass('active2')
+  //         $(this).addClass('active2')
+  //     } else {
+  //         $(this).removeClass('active2')
+  //     }
+  // })
+  //
+  //
+  // if ($('.blocks41').hasClass('active2')) {
+  //       setTimeout(function() {
+  //           $('.blocks41 .content-top').removeClass('transparent').addClass('animated infinite pulse')
+  //
+  //       }, 10)
+  //
+  //       setTimeout(function() {
+  //             $('.blocks41 .content-middle').removeClass('transparent').addClass('animated  infinite pulse')
+  //
+  //
+  //       }, 50)
+  //
+  //
+  //
+  // }
+  //
+  //
+  //
+  //
+  // if ($('.blocks200').hasClass('active2')) {
+  //
+  //   setTimeout(function() {
+  //       $('.blocks200 .content-top').removeClass('transparent').addClass('animated slideInUp')
+  //
+  //   }, 100)
+  //
+  //   setTimeout(function() {
+  //         $('.blocks200 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  //   }, 200)
+  //
+  //   setTimeout(function() {
+  //         $('.blocks200 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  //   }, 300)
+  //
+  //   setTimeout(function() {
+  //         $('.blocks200 .content-last').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  //   }, 400)
+  //
+  //   setTimeout(function() {
+  //         $('.blocks200 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  //   }, 500)
+  //   setTimeout(function() {
+  //         $('.blocks200 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  //   }, 600)
+  //
+  //   setTimeout(function() {
+  //         $('.blocks200 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  //   }, 700)
+  //
+  //   setTimeout(function() {
+  //         $('.blocks200 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  //   }, 800)
+  //
+  //
+  // }
+  //
+  //
+  //
+  //
+  //
+  // if ($('.blocks500').hasClass('active2')) {
+  //
+  // setTimeout(function() {
+  // $('.blocks500 .content-top').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // })
+  //
+  // setTimeout(function() {
+  // $('.blocks500 .content-middle').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 100)
+  //
+  // setTimeout(function() {
+  // $('.blocks500 .content-bottom').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 200)
+  //
+  // setTimeout(function() {
+  // $('.blocks500 .content-last').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 400)
+  //
+  // setTimeout(function() {
+  // $('.blocks500 .content-secondLast').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 700)
+  //
+  // setTimeout(function() {
+  // $('.blocks500 .content-thirdLast').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 800)
+  //
+  // setTimeout(function() {
+  // $('.blocks500 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 900)
+  //
+  //
+  // setTimeout(function() {
+  // $('.blocks500 .content-fifthLast').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 1000)
+  //
+  // setTimeout(function() {
+  // $('.blocks500 .content-sixthLast').removeClass('transparent').addClass('animated bounceInDown')
+  //
+  // }, 1300)
+  //
+  // setTimeout(function() {
+  // $('.blocks500 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-tl')
+  //
+  // }, 2000)
+  //
+  //
+  //
+  // }
+  //
+  //
+  //
+  //
+  // if ($('.blocks6000').hasClass('active2')) {
+  //
+  //
+  // setTimeout(function() {
+  //     $('.blocks600 .content-top').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 100)
+  //
+  // setTimeout(function() {
+  //       $('.blocks600 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 200)
+  //
+  // setTimeout(function() {
+  //       $('.blocks600 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 300)
+  //
+  // setTimeout(function() {
+  //       $('.blocks600 .content-last').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 400)
+  //
+  // setTimeout(function() {
+  //       $('.blocks600 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 500)
+  //
+  // setTimeout(function() {
+  //       $('.blocks600 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 600)
+  //
+  // setTimeout(function() {
+  //       $('.blocks600 .content-fourthLast').removeClass('transparent').addClass('animated  slideInRight')
+  //
+  // }, 800)
+  //
+  // setTimeout(function() {
+  //       $('.blocks600 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 1000)
+  //
+  // }
+  //
+  //
+  // if ($('.blocks6020').hasClass('active2')) {
+  //
+  // setTimeout(function() {
+  //       $('.blocks6020 .content-top').removeClass('transparent').addClass('animated  slideInRight')
+  //
+  // }, 1200)
+  //
+  // }
+  //
+  //
+  //
+  //
+  // if ($('.blocks7000').hasClass('active2')) {
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-top').removeClass('transparent').addClass('animated fadeIn')
+  //
+  //   })
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-middle').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 80)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-bottom').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 140)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-last').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 200)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-secondLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 280)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-thirdLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 180)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-fourthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 220)
+  //
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-fifthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 260)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-sixthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 300)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 340)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-eighthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 380)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-ninthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 420)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-tenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 460)
+  //
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-eleventhLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 500)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-twelfthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 540)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-thirteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 580)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-fourthteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 620)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-fifthteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 660)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-sixteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 700)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-seventeenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 740)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-eighteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 780)
+  //
+  //   setTimeout(function() {
+  //
+  //   $('.blocks700 .content-nineteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 820)
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-twentiethLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //
+  //   }, 860)
+  //
+  //
+  //   setTimeout(function() {
+  //   $('.blocks700 .content-twentyoneLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  //   }, 900)
+  //
+  //
+  // }
+  //
+  //
+  //
+  //
+  //
+  //
+  // if ($('.blocks8000').hasClass('active2')) {
+  //
+  // setTimeout(function() {
+  //     $('.blocks800 .content-top').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 100)
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 200)
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 300)
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-last').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 400)
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 500)
+  // setTimeout(function() {
+  //       $('.blocks800 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 600)
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 700)
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 800)
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-sixthLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 900)
+  // setTimeout(function() {
+  //       $('.blocks800 .content-seventhLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 1000)
+  // setTimeout(function() {
+  //       $('.blocks800 .content-eighthLast').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 1100)
+  //
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-ninthLast').removeClass('transparent').addClass('animated bounceIn')
+  //
+  // }, 1400)
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-tenthLast').removeClass('transparent').addClass('animated bounceIn')
+  //
+  // }, 1500)
+  //
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-eleventhLast').removeClass('transparent').addClass('animated bounceIn')
+  //
+  // }, 1600)
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-twelfthLast').removeClass('transparent').addClass('animated bounceIn')
+  //
+  // }, 1700)
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-thirteenthLast').removeClass('transparent').addClass('animated bounceIn')
+  //
+  // }, 1800)
+  //
+  //
+  // setTimeout(function() {
+  //       $('.blocks800 .content-fourthteenthLast').removeClass('transparent').addClass('animated bounceIn')
+  //
+  // }, 1900)
+  //
+  //
+  // }
+  //
+  //
+  // if ($('.blocks801').hasClass('active2')) {
+  //
+  // setTimeout(function() {
+  //     $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 20)
+  //
+  // setTimeout(function() {
+  //       $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  // }, 30)
+  //
+  // setTimeout(function() {
+  //       $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
+  //
+  // }, 40)
+  //
+  // setTimeout(function() {
+  //       $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+  //
+  // }, 50)
+  //
+  // }
+  //
+  //
+  //
+  // if ($('.blocks802').hasClass('active2')) {
+  //
+  //
+  // setTimeout(function() {
+  //     $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
+  //
+  // }, 100)
+  //
+  // setTimeout(function() {
+  //       $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  //       var $tlt105 = $('.tlt105').textillate({
+  //           autoStart: true,
+  //           selector: '.tlt105',
+  //           loop: false,
+  //           minDisplayTime: 900,
+  //           initialDelay: 200,
+  //           in: {
+  //             effect: 'fadeInLeft',
+  //             delayScale: 1,
+  //             delay: 4,
+  //             sync: false,
+  //             shuffle: true,
+  //             reverse: false,
+  //             callback: function () {}
+  //           },
+  //           type: 'char'
+  //       });
+  //
+  // }, 200)
+  //
+  // setTimeout(function() {
+  //     $('.blocks802 .content-bottom').removeClass('transparent').addClass('animated slideInUp')
+  //
+  // }, 300)
+  //
+  //
+  // }
+  //
+  //
+  //
+  // if ($('.blocks900').hasClass('active2')) {
+  //
+  // setTimeout(function() {
+  //       $('.blocks900 .content-top').removeClass('transparent').addClass('animated  slideInUp')
+  //
+  //       var $tlt106 = $('.tlt106').textillate({
+  //           autoStart: true,
+  //           selector: '.tlt106',
+  //           loop: false,
+  //           minDisplayTime: 800,
+  //           initialDelay: 200,
+  //           in: {
+  //             effect: 'fadeInLeft',
+  //             delayScale: 2,
+  //             delay: 3,
+  //             sync: false,
+  //             shuffle: true,
+  //             reverse: false,
+  //             callback: function () {}
+  //           },
+  //           type: 'char'
+  //       });
+  //
+  // }, 100)
+  //
+  // setTimeout(function() {
+  // $('.blocks900 .content-middle').removeClass('transparent').addClass('animated slideInRight')
+  //
+  // }, 300)
+  //
+  // }
+  //
+  //
+  //
+  //
+  //
+  // });
 
-  $('section').each(function() {
-      var elementTop = $(this).offset().top;
-      var elementBottom = $(this).offset().top + $(this).outerHeight();
+  $(window).scroll(function() {
+    var height = $(window).scrollTop();
+    var element = $('.blocks501');
+    if(height  > element.offset().top -2000) {
 
-      if ((screenBottom > elementTop + ($(this).find('.heros').height() / 2 )) && (screenTop < elementBottom)) {
-          $('section').removeClass('active2')
-          $(this).addClass('active2')
-      } else {
-          $(this).removeClass('active2')
-      }
-  })
+      console.log('this is the point')
+        element.addClass('active2');
+    }
 
-  if ($('.blocks43').hasClass('active2')) {
+    else {
+        element.removeClass('active2');
+    }
 
-  setTimeout(function() {
-      $('.blocks43 .content-top').removeClass('transparent').addClass('animated slideInDown')
-
-  }, 10)
-
-  setTimeout(function() {
-        $('.blocks43 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-
-  }, 40)
-
-  setTimeout(function() {
-        $('.blocks4000 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-
-  }, 80)
-
-  setTimeout(function() {
-        $('.blocks43 .content-last').removeClass('transparent').addClass('animated fadeInUp')
-
-  }, 120)
-
-  setTimeout(function() {
-        $('.blocks43 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
-
-  }, 800)
-
-  setTimeout(function() {
-    $('.blocks43 .content-thirdLast').removeClass('transparent');
-    var $tlt10 = $('.tlt10').textillate({
-        autoStart: true,
-        selector: '.tlt10',
-        loop: false,
-        minDisplayTime: 900,
-        initialDelay: 200,
-        in: {
-          effect: 'fadeInLeft',
-          delayScale: 1,
-          delay: 4,
-          sync: false,
-          shuffle: true,
-          reverse: false,
-          callback: function () {}
-        },
-        type: 'char'
-    });
-
-  }, 1000)
-
-  setTimeout(function() {
-        $('.blocks43 .content-fourthLast').removeClass('transparent').addClass('animated scale-in-left')
-
-  }, 1600)
-
-
-  }
 
   if ($('.blocks501').hasClass('active2')) {
-
-
-
-  setTimeout(function() {
-    $('.blocks501 .content-top').removeClass('transparent').addClass('animated slideInDown')
-
-  }, 100)
-
-  setTimeout(function() {
-      $('.blocks501 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-
-  }, 300)
-
-  setTimeout(function() {
-      $('.blocks501 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-
-  }, 500)
-
-  setTimeout(function() {
-      $('.blocks501 .content-last').removeClass('transparent').addClass('animated fadeInUp')
-
-  }, 700)
-
-  setTimeout(function() {
-      $('.blocks501 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
-
-  }, 900)
-
-  setTimeout(function() {
-  $('.blocks501 .content-thirdLast').removeClass('transparent');
-  var $tlt101 = $('.tlt101').textillate({
-      autoStart: true,
-      selector: '.tlt101',
-      loop: false,
-      minDisplayTime: 900,
-      initialDelay: 200,
-      in: {
-        effect: 'fadeInLeft',
-        delayScale: 1,
-        delay: 4,
-        sync: false,
-        shuffle: true,
-        reverse: false,
-        callback: function () {}
-      },
-      type: 'char'
-  });
-
-  }, 1100)
-
-  setTimeout(function() {
-      $('.blocks501 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
-
-  }, 1300)
-
-
-  }
-
-
-  if ($('.blocks601').hasClass('active2')) {
-
-  setTimeout(function() {
-      $('.blocks601 .content-top').removeClass('transparent').addClass('animated slideInDown')
-
-  }, 10)
-
-  setTimeout(function() {
-        $('.blocks601 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-
-  }, 20)
-
-  setTimeout(function() {
-        $('.blocks601 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-
-  }, 30)
-
-  setTimeout(function() {
-        $('.blocks601 .content-last').removeClass('transparent').addClass('animated fadeInUp')
-
-  }, 40)
-
-  setTimeout(function() {
-        $('.blocks601 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
-
-  }, 200)
-
-  setTimeout(function() {
-    $('.blocks601 .content-thirdLast').removeClass('transparent');
-    var $tlt102 = $('.tlt102').textillate({
-        autoStart: true,
-        selector: '.tlt102',
-        loop: false,
-        minDisplayTime: 900,
-        initialDelay: 200,
-        in: {
-          effect: 'fadeInLeft',
-          delayScale: 1,
-          delay: 4,
-          sync: false,
-          shuffle: true,
-          reverse: false,
-          callback: function () {}
-        },
-        type: 'char'
-    });
-
-  }, 300)
-
-
-  setTimeout(function() {
-        $('.blocks601 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
-
-  }, 400)
-
-  }
-
-
-  if ($('.blocks701').hasClass('active2')) {
-
-
-  setTimeout(function() {
-    $('.blocks701 .content-top').removeClass('transparent').addClass('animated slideInDown')
-
-  }, 10)
-
-  setTimeout(function() {
-      $('.blocks701 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-
-  }, 30)
-
-  setTimeout(function() {
-      $('.blocks701 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-
-  }, 50)
-
-  setTimeout(function() {
-      $('.blocks701 .content-last').removeClass('transparent').addClass('animated fadeInUp')
-
-  }, 100)
-
-  setTimeout(function() {
-      $('.blocks701 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
-
-  }, 500)
-
-  setTimeout(function() {
-  $('.blocks701 .content-thirdLast').removeClass('transparent');
-  var $tlt104 = $('.tlt104').textillate({
-      autoStart: true,
-      selector: '.tlt104',
-      loop: false,
-      minDisplayTime: 900,
-      initialDelay: 200,
-      in: {
-        effect: 'fadeInLeft',
-        delayScale: 1,
-        delay: 4,
-        sync: false,
-        shuffle: true,
-        reverse: false,
-        callback: function () {}
-      },
-      type: 'char'
-  });
-
-  }, 600)
-
-  setTimeout(function() {
-      $('.blocks701 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
-
-  }, 700)
-
-  }
-
-  if ($('.blocks1000').hasClass('active2')) {
-  setTimeout(function() {
-        $('.blocks1000 .content-top').removeClass('transparent').addClass('animated  fadeInLeft')
-
-  }, 100)
-
-  }
-
-  if ($('.blocks803').hasClass('active2')) {
-  setTimeout(function() {
-      $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
-
-  }, 400)
-
-
-  }
-
-
-
-  })
-
-  $(window).on('scroll', function() {
-  var screenTop = $(window).scrollTop();
-  var screenBottom = $(window).scrollTop() + window.innerHeight;
-
-  $('section').each(function() {
-      var elementTop = $(this).offset().top;
-      var elementBottom = $(this).offset().top + $(this).outerHeight();
-
-      if ((screenBottom > elementTop + ($(this).find('.heros').height() + 100 )) && (screenTop < elementBottom)) {
-          $('section').removeClass('active2')
-          $(this).addClass('active2')
-      } else {
-          $(this).removeClass('active2')
-      }
-  })
-
-
-  if ($('.blocks41').hasClass('active2')) {
-        setTimeout(function() {
-            $('.blocks41 .content-top').removeClass('transparent').addClass('animated infinite pulse')
-
-        }, 10)
-
-        setTimeout(function() {
-              $('.blocks41 .content-middle').removeClass('transparent').addClass('animated  infinite pulse')
-
-
-        }, 50)
-
-
-
-  }
-
-
-
-
-  if ($('.blocks200').hasClass('active2')) {
-
-    setTimeout(function() {
-        $('.blocks200 .content-top').removeClass('transparent').addClass('animated slideInUp')
-
-    }, 100)
-
-    setTimeout(function() {
-          $('.blocks200 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-
-    }, 200)
-
-    setTimeout(function() {
-          $('.blocks200 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-
-    }, 300)
-
-    setTimeout(function() {
-          $('.blocks200 .content-last').removeClass('transparent').addClass('animated  slideInUp')
-
-    }, 400)
-
-    setTimeout(function() {
-          $('.blocks200 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
-
-    }, 500)
-    setTimeout(function() {
-          $('.blocks200 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
-
-    }, 600)
-
-    setTimeout(function() {
-          $('.blocks200 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
-
-    }, 700)
-
-    setTimeout(function() {
-          $('.blocks200 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
-
-    }, 800)
-
-
-  }
-
-
-
-
-
-  if ($('.blocks500').hasClass('active2')) {
 
   setTimeout(function() {
   $('.blocks500 .content-top').removeClass('transparent').addClass('animated slideInUp')
@@ -1480,212 +1941,393 @@ else if ($(window).innerWidth() < 1024) {
   setTimeout(function() {
   $('.blocks500 .content-sixthLast').removeClass('transparent').addClass('animated bounceInDown')
 
-  }, 1300)
+  }, 2700)
 
   setTimeout(function() {
   $('.blocks500 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-tl')
 
-  }, 2000)
+  }, 2800)
 
+  setTimeout(function() {
+    $('.blocks501 .content-top').removeClass('transparent').addClass('animated slideInDown')
+
+  }, 1500)
+
+  setTimeout(function() {
+      $('.blocks501 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+  }, 1700)
+
+  setTimeout(function() {
+      $('.blocks501 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+
+  }, 1900)
+
+  setTimeout(function() {
+      $('.blocks501 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+
+  }, 2100)
+
+  setTimeout(function() {
+      $('.blocks501 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
+
+  }, 4000)
+
+  setTimeout(function() {
+  $('.blocks501 .content-thirdLast').removeClass('transparent');
+  var $tlt101 = $('.tlt101').textillate({
+      autoStart: true,
+      selector: '.tlt101',
+      loop: false,
+      minDisplayTime: 900,
+      initialDelay: 200,
+      in: {
+        effect: 'fadeInLeft',
+        delayScale: 1,
+        delay: 4,
+        sync: false,
+        shuffle: true,
+        reverse: false,
+        callback: function () {}
+      },
+      type: 'char'
+  });
+
+  }, 4100)
 
 
   }
 
+  });
 
 
 
-  if ($('.blocks6000').hasClass('active2')) {
 
+  $(window).scroll(function() {
+    var height2 = $(window).scrollTop();
+    var element2 = $('.blocks601'); //change this to your element you want to add the css to
+    if(height2  > element2.offset().top - 400) {
+
+
+
+        console.log('this is the point2')
+        element2.addClass('active2'); //add css class black (change according to own css)
+    }
+
+    else {
+        element2.removeClass('active2');
+    }
+
+
+  if ($('.blocks601').hasClass('active2')) {
+
+        setTimeout(function() {
+            $('.blocks600 .content-top').removeClass('transparent').addClass('animated slideInUp')
+
+        }, 100)
+
+        setTimeout(function() {
+              $('.blocks600 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+        }, 200)
+
+        setTimeout(function() {
+              $('.blocks600 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+
+        }, 300)
+
+        setTimeout(function() {
+              $('.blocks600 .content-last').removeClass('transparent').addClass('animated  slideInUp')
+
+        }, 400)
+
+        setTimeout(function() {
+              $('.blocks600 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
+
+        }, 500)
+
+        setTimeout(function() {
+              $('.blocks600 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
+
+        }, 600)
+
+        setTimeout(function() {
+              $('.blocks600 .content-fourthLast').removeClass('transparent');
+
+        }, 800)
+
+        setTimeout(function() {
+              $('.blocks600 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+        }, 1000)
+
+
+        setTimeout(function() {
+              $('.blocks620 .content-top').removeClass('transparent').addClass('animated  slideInRight')
+
+        }, 1200)
+
+
+        setTimeout(function() {
+            $('.blocks601 .content-top').removeClass('transparent').addClass('animated slideInDown')
+
+        }, 1500)
+
+        setTimeout(function() {
+              $('.blocks601 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+        }, 1700)
+
+        setTimeout(function() {
+              $('.blocks601 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+
+        }, 1900)
+
+        setTimeout(function() {
+              $('.blocks601 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+
+        }, 2100)
+
+        setTimeout(function() {
+              $('.blocks601 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
+
+        }, 2500)
+
+        setTimeout(function() {
+          $('.blocks601 .content-thirdLast').removeClass('transparent');
+          var $tlt102 = $('.tlt102').textillate({
+              autoStart: true,
+              selector: '.tlt102',
+              loop: false,
+              minDisplayTime: 900,
+              initialDelay: 200,
+              in: {
+                effect: 'fadeInLeft',
+                delayScale: 1,
+                delay: 4,
+                sync: false,
+                shuffle: true,
+                reverse: false,
+                callback: function () {}
+              },
+              type: 'char'
+          });
+
+        }, 2800)
+
+
+      }
+
+  });
+
+
+
+  $(window).scroll(function() {
+    var height3 = $(window).scrollTop();
+    var element3 = $('.blocks701'); //change this to your element you want to add the css to
+    if(height3  > element3.offset().top -100) {
+      console.log('this is point 3')
+        element3.addClass('active2'); //add css class black (change according to own css)
+    }
+
+    else {
+        element3.removeClass('active2');
+    }
+
+
+  if ($('.blocks701').hasClass('active2')) {
 
   setTimeout(function() {
-      $('.blocks600 .content-top').removeClass('transparent').addClass('animated slideInUp')
+  $('.blocks700 .content-top').removeClass('transparent').addClass('animated fadeIn')
 
-  }, 100)
+  })
 
   setTimeout(function() {
-        $('.blocks600 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+  $('.blocks700 .content-middle').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 80)
+
+  setTimeout(function() {
+  $('.blocks700 .content-bottom').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 140)
+
+  setTimeout(function() {
+  $('.blocks700 .content-last').removeClass('transparent').addClass('animated slide-in-bottom')
 
   }, 200)
 
   setTimeout(function() {
-        $('.blocks600 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+  $('.blocks700 .content-secondLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 280)
+
+  setTimeout(function() {
+  $('.blocks700 .content-thirdLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 180)
+
+  setTimeout(function() {
+  $('.blocks700 .content-fourthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 220)
+
+
+  setTimeout(function() {
+  $('.blocks700 .content-fifthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 260)
+
+  setTimeout(function() {
+  $('.blocks700 .content-sixthLast').removeClass('transparent').addClass('animated slide-in-bottom')
 
   }, 300)
 
   setTimeout(function() {
-        $('.blocks600 .content-last').removeClass('transparent').addClass('animated  slideInUp')
+  $('.blocks700 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-bottom')
 
-  }, 400)
+  }, 340)
 
   setTimeout(function() {
-        $('.blocks600 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
+  $('.blocks700 .content-eighthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 380)
+
+  setTimeout(function() {
+  $('.blocks700 .content-ninthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 420)
+
+  setTimeout(function() {
+  $('.blocks700 .content-tenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 460)
+
+
+  setTimeout(function() {
+  $('.blocks700 .content-eleventhLast').removeClass('transparent').addClass('animated slide-in-bottom')
 
   }, 500)
 
   setTimeout(function() {
-        $('.blocks600 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
+  $('.blocks700 .content-twelfthLast').removeClass('transparent').addClass('animated slide-in-bottom')
 
-  }, 600)
-
-  setTimeout(function() {
-        $('.blocks600 .content-fourthLast').removeClass('transparent').addClass('animated  slideInRight')
-
-  }, 800)
+  }, 540)
 
   setTimeout(function() {
-        $('.blocks600 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
+  $('.blocks700 .content-thirteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
 
-  }, 1000)
+  }, 580)
+
+  setTimeout(function() {
+  $('.blocks700 .content-fourthteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 620)
+
+  setTimeout(function() {
+  $('.blocks700 .content-fifthteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 660)
+
+  setTimeout(function() {
+  $('.blocks700 .content-sixteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 700)
+
+  setTimeout(function() {
+  $('.blocks700 .content-seventeenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 740)
+
+  setTimeout(function() {
+  $('.blocks700 .content-eighteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 780)
+
+  setTimeout(function() {
+
+  $('.blocks700 .content-nineteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 820)
+
+  setTimeout(function() {
+  $('.blocks700 .content-twentiethLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+  }, 860)
+
+
+  setTimeout(function() {
+  $('.blocks700 .content-twentyoneLast').removeClass('transparent').addClass('animated slide-in-bottom')
+  }, 900)
+
+
+
+  setTimeout(function() {
+    $('.blocks701 .content-top').removeClass('transparent').addClass('animated slideInDown')
+
+  }, 1300)
+
+  setTimeout(function() {
+      $('.blocks701 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+  }, 1500)
+
+  setTimeout(function() {
+      $('.blocks701 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+
+  }, 1800)
+
+  setTimeout(function() {
+      $('.blocks701 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+
+  }, 2200)
+
+  setTimeout(function() {
+      $('.blocks701 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
+
+  }, 2400)
+
+  setTimeout(function() {
+  $('.blocks701 .content-thirdLast').removeClass('transparent');
+  var $tlt104 = $('.tlt104').textillate({
+      autoStart: true,
+      selector: '.tlt104',
+      loop: false,
+      minDisplayTime: 900,
+      initialDelay: 200,
+      in: {
+        effect: 'fadeInLeft',
+        delayScale: 1,
+        delay: 4,
+        sync: false,
+        shuffle: true,
+        reverse: false,
+        callback: function () {}
+      },
+      type: 'char'
+  });
+
+  }, 2600)
 
   }
 
+  });
 
-  if ($('.blocks6020').hasClass('active2')) {
 
-  setTimeout(function() {
-        $('.blocks6020 .content-top').removeClass('transparent').addClass('animated  slideInRight')
+  $(window).scroll(function() {
+    var height4 = $(window).scrollTop();
+    var element4 = $('.blocks801'); //change this to your element you want to add the css to
+    if(height4  > element4.offset().top -300) {
+        element4.addClass('active2'); //add css class black (change according to own css)
+    }
 
-  }, 1200)
+    else {
+        element4.removeClass('active2');
+    }
 
-  }
 
+  if ($('.blocks801').hasClass('active2')) {
 
-
-
-  if ($('.blocks7000').hasClass('active2')) {
-
-    setTimeout(function() {
-    $('.blocks700 .content-top').removeClass('transparent').addClass('animated fadeIn')
-
-    })
-
-    setTimeout(function() {
-    $('.blocks700 .content-middle').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 80)
-
-    setTimeout(function() {
-    $('.blocks700 .content-bottom').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 140)
-
-    setTimeout(function() {
-    $('.blocks700 .content-last').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 200)
-
-    setTimeout(function() {
-    $('.blocks700 .content-secondLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 280)
-
-    setTimeout(function() {
-    $('.blocks700 .content-thirdLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 180)
-
-    setTimeout(function() {
-    $('.blocks700 .content-fourthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 220)
-
-
-    setTimeout(function() {
-    $('.blocks700 .content-fifthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 260)
-
-    setTimeout(function() {
-    $('.blocks700 .content-sixthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 300)
-
-    setTimeout(function() {
-    $('.blocks700 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 340)
-
-    setTimeout(function() {
-    $('.blocks700 .content-eighthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 380)
-
-    setTimeout(function() {
-    $('.blocks700 .content-ninthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 420)
-
-    setTimeout(function() {
-    $('.blocks700 .content-tenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 460)
-
-
-    setTimeout(function() {
-    $('.blocks700 .content-eleventhLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 500)
-
-    setTimeout(function() {
-    $('.blocks700 .content-twelfthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 540)
-
-    setTimeout(function() {
-    $('.blocks700 .content-thirteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 580)
-
-    setTimeout(function() {
-    $('.blocks700 .content-fourthteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 620)
-
-    setTimeout(function() {
-    $('.blocks700 .content-fifthteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 660)
-
-    setTimeout(function() {
-    $('.blocks700 .content-sixteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 700)
-
-    setTimeout(function() {
-    $('.blocks700 .content-seventeenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 740)
-
-    setTimeout(function() {
-    $('.blocks700 .content-eighteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 780)
-
-    setTimeout(function() {
-
-    $('.blocks700 .content-nineteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 820)
-
-    setTimeout(function() {
-    $('.blocks700 .content-twentiethLast').removeClass('transparent').addClass('animated slide-in-bottom')
-
-    }, 860)
-
-
-    setTimeout(function() {
-    $('.blocks700 .content-twentyoneLast').removeClass('transparent').addClass('animated slide-in-bottom')
-    }, 900)
-
-
-  }
-
-
-
-
-
-
-  if ($('.blocks8000').hasClass('active2')) {
 
   setTimeout(function() {
       $('.blocks800 .content-top').removeClass('transparent').addClass('animated slideInUp')
@@ -1772,76 +2414,94 @@ else if ($(window).innerWidth() < 1024) {
 
   }, 1900)
 
+  //edit this elizabeth
 
-  }
-
-
-  if ($('.blocks801').hasClass('active2')) {
 
   setTimeout(function() {
       $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-  }, 20)
+  }, 2200)
 
   setTimeout(function() {
         $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-  }, 30)
+  }, 3000)
 
   setTimeout(function() {
         $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
 
-  }, 40)
+  }, 3500)
 
   setTimeout(function() {
         $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-  }, 50)
+  }, 2600)
+
+
+    setTimeout(function() {
+        $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
+
+    }, 4000)
+
+    setTimeout(function() {
+          $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+          var $tlt105 = $('.tlt105').textillate({
+              autoStart: true,
+              selector: '.tlt105',
+              loop: false,
+              minDisplayTime: 900,
+              initialDelay: 200,
+              in: {
+                effect: 'fadeInLeft',
+                delayScale: 1,
+                delay: 4,
+                sync: false,
+                shuffle: true,
+                reverse: false,
+                callback: function () {}
+              },
+              type: 'char'
+          });
+
+    }, 4300)
+
+    setTimeout(function() {
+        $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
+
+    }, 5800)
+
+
+
+  //
+  //   setTimeout(function() {
+  //   $('.blocks1000 .content-top').removeClass('transparent').addClass('animated slideInRight')
+  //
+  // }, 6000)
 
   }
 
 
 
-  if ($('.blocks802').hasClass('active2')) {
+  });
 
 
-  setTimeout(function() {
-      $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
 
-  }, 100)
+  $(window).on('scroll', function() {
+  var screenTop = $(window).scrollTop();
+  var screenBottom = $(window).scrollTop() + window.innerHeight;
 
-  setTimeout(function() {
-        $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+  $('article').each(function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = $(this).offset().top + $(this).outerHeight();
 
-        var $tlt105 = $('.tlt105').textillate({
-            autoStart: true,
-            selector: '.tlt105',
-            loop: false,
-            minDisplayTime: 900,
-            initialDelay: 200,
-            in: {
-              effect: 'fadeInLeft',
-              delayScale: 1,
-              delay: 4,
-              sync: false,
-              shuffle: true,
-              reverse: false,
-              callback: function () {}
-            },
-            type: 'char'
-        });
-
-  }, 200)
-
-  setTimeout(function() {
-      $('.blocks802 .content-bottom').removeClass('transparent').addClass('animated slideInUp')
-
-  }, 300)
-
-
-  }
-
-
+    if ((screenBottom > elementTop + ($(this).find('.hero').height() + 100)) && (screenTop < elementBottom)) {
+        $('article').removeClass('active2')
+        $(this).addClass('active2')
+    } else {
+        $(this).removeClass('active2')
+    }
+  })
 
   if ($('.blocks900').hasClass('active2')) {
 
@@ -1853,7 +2513,7 @@ else if ($(window).innerWidth() < 1024) {
             selector: '.tlt106',
             loop: false,
             minDisplayTime: 800,
-            initialDelay: 200,
+            initialDelay: 100,
             in: {
               effect: 'fadeInLeft',
               delayScale: 2,
@@ -1866,22 +2526,28 @@ else if ($(window).innerWidth() < 1024) {
             type: 'char'
         });
 
-  }, 100)
+  }, 3500)
 
   setTimeout(function() {
   $('.blocks900 .content-middle').removeClass('transparent').addClass('animated slideInRight')
 
-  }, 300)
+}, 3300)
 
   }
 
 
+  if ($('.blocks900').hasClass('active2')) {
+
+  setTimeout(function() {
+        $('.blocks1000 .content-top').removeClass('transparent').addClass('animated  fadeInLeft')
 
 
 
-  });
+  }, 3700)
 
+  }
 
+  })
 
 
 
