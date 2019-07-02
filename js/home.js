@@ -859,87 +859,88 @@ if ($('.blocks801').hasClass('active2')) {
 setTimeout(function() {
     $('.blocks800 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-}, 100)
+}, 10)
 
 setTimeout(function() {
       $('.blocks800 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 200)
+}, 100)
 
 setTimeout(function() {
       $('.blocks800 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 300)
+}, 200)
 
 setTimeout(function() {
       $('.blocks800 .content-last').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 400)
+}, 300)
 
 setTimeout(function() {
       $('.blocks800 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 500)
+}, 400)
+
 setTimeout(function() {
       $('.blocks800 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 600)
+}, 500)
 
 setTimeout(function() {
       $('.blocks800 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 700)
+}, 600)
 
 setTimeout(function() {
       $('.blocks800 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 800)
+}, 700)
 
 setTimeout(function() {
       $('.blocks800 .content-sixthLast').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 900)
+}, 800)
 setTimeout(function() {
       $('.blocks800 .content-seventhLast').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1000)
+}, 900)
 setTimeout(function() {
       $('.blocks800 .content-eighthLast').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1100)
+}, 1000)
 
 
 setTimeout(function() {
       $('.blocks800 .content-ninthLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1400)
+}, 1100)
 
 setTimeout(function() {
       $('.blocks800 .content-tenthLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1500)
+}, 1200)
 
 
 setTimeout(function() {
       $('.blocks800 .content-eleventhLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1600)
+}, 1300)
 
 setTimeout(function() {
       $('.blocks800 .content-twelfthLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1700)
+}, 1400)
 
 setTimeout(function() {
       $('.blocks800 .content-thirteenthLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1800)
+}, 1500)
 
 
 setTimeout(function() {
       $('.blocks800 .content-fourthteenthLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1900)
+}, 1600)
 
 //edit this elizabeth
 
@@ -947,28 +948,28 @@ setTimeout(function() {
 setTimeout(function() {
     $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-}, 100)
+}, 500)
 
 setTimeout(function() {
       $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 200)
+}, 600)
 
 setTimeout(function() {
       $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
 
-}, 300)
+}, 700)
 
 setTimeout(function() {
       $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 400)
+}, 700)
 
 
   setTimeout(function() {
       $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
 
-  }, 400)
+  }, 1000)
 
   setTimeout(function() {
         $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
@@ -991,7 +992,7 @@ setTimeout(function() {
             type: 'char'
         });
 
-  }, 300)
+  }, 900)
 
   setTimeout(function() {
       $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
