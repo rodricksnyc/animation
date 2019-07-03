@@ -2670,7 +2670,7 @@ max-width:110px;
 
 }
 
-.colAbsolute2,   .colAbsolute4 {
+.colAbsolute2, .colAbsolute4 {
   top:150px;
 }
 
@@ -2687,11 +2687,11 @@ position: initial;
 width: 95px;
 }
 
-.blocks43 {
-position: absolute;
-  z-index: 28;
-  top: 367px;
-  right: -144px;
+.blocks41 {
+    position: absolute;
+    z-index: 28;
+    top: 244px;
+    left: 37px;
 }
 
 #ex1 {
@@ -2884,6 +2884,20 @@ padding-left: 1em;
     align-items: center;
     padding-right: 2em;
   padding-left: 2em;
+}
+.blocks43 {
+    position: absolute;
+    z-index: 28;
+    top: 366px;
+    right: -147px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 
