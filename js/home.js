@@ -473,12 +473,12 @@ $('.blocks500 .content-fifthLast').removeClass('transparent').addClass('animated
 setTimeout(function() {
 $('.blocks500 .content-sixthLast').removeClass('transparent').addClass('animated bounceInDown')
 
-}, 600)
+}, 700)
 
 setTimeout(function() {
 $('.blocks500 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-tl')
 
-}, 700)
+}, 1400)
 
 setTimeout(function() {
   $('.blocks501 .content-top').removeClass('transparent').addClass('animated slideInDown')
@@ -913,34 +913,34 @@ setTimeout(function() {
 setTimeout(function() {
       $('.blocks800 .content-ninthLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1100)
+}, 200)
 
 setTimeout(function() {
       $('.blocks800 .content-tenthLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1200)
+}, 400)
 
 
 setTimeout(function() {
       $('.blocks800 .content-eleventhLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1300)
+}, 600)
 
 setTimeout(function() {
       $('.blocks800 .content-twelfthLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1400)
+}, 800)
 
 setTimeout(function() {
       $('.blocks800 .content-thirteenthLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1500)
+}, 1000)
 
 
 setTimeout(function() {
       $('.blocks800 .content-fourthteenthLast').removeClass('transparent').addClass('animated bounceIn')
 
-}, 1600)
+}, 1200)
 
 //edit this elizabeth
 
@@ -948,28 +948,28 @@ setTimeout(function() {
 setTimeout(function() {
     $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-}, 500)
+}, 900)
 
 setTimeout(function() {
       $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 600)
+}, 900)
 
 setTimeout(function() {
       $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
 
-}, 700)
+}, 1000)
 
 setTimeout(function() {
       $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 700)
+}, 1000)
 
 
   setTimeout(function() {
       $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
 
-  }, 1000)
+  }, 1200)
 
   setTimeout(function() {
         $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
@@ -992,12 +992,12 @@ setTimeout(function() {
             type: 'char'
         });
 
-  }, 900)
+  }, 1000)
 
   setTimeout(function() {
       $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
 
-  }, 1500)
+  }, 2800)
 
 
 
@@ -1023,7 +1023,7 @@ $('article').each(function() {
   var elementTop = $(this).offset().top;
   var elementBottom = $(this).offset().top + $(this).outerHeight();
 
-  if ((screenBottom > elementTop + ($(this).find('.hero').height() + 300)) && (screenTop < elementBottom)) {
+  if ((screenBottom > elementTop + ($(this).find('.hero').height() + 100)) && (screenTop < elementBottom)) {
       $('article').removeClass('active2')
       $(this).addClass('active2')
   } else {
@@ -1041,7 +1041,7 @@ setTimeout(function() {
           selector: '.tlt106',
           loop: false,
           minDisplayTime: 800,
-          initialDelay: 200,
+          initialDelay: 20,
           in: {
             effect: 'fadeInLeft',
             delayScale: 2,
@@ -1054,12 +1054,12 @@ setTimeout(function() {
           type: 'char'
       });
 
-}, 100)
+}, 200)
 
 setTimeout(function() {
 $('.blocks900 .content-middle').removeClass('transparent').addClass('animated slideInRight')
 
-}, 300)
+}, 400)
 
 }
 
