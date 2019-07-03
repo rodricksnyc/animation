@@ -2953,7 +2953,7 @@ padding-left: 1em;
   position: absolute;
   z-index: 28;
   top: 628px;
-  left: 2em;
+  left: 3em;
 
 }
 
@@ -3018,7 +3018,7 @@ padding-left: 1em;
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  left: -26px;
+  left: -21px;
 }
 
 #bubble2 {
@@ -3690,7 +3690,7 @@ position: initial;
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  right: -15px;
+  right: -26px;
 }
 
 .blocks40 {
@@ -3738,29 +3738,28 @@ font-size:14px;
 }
 
 .blocks800, .blocks8000 {
-  position: initial;
-
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  overflow: hidden;
-  padding-right: 2em;
-  padding-left: 4em;
-  padding-bottom: 3em;
-
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  vertical-align: middle;
+    position: initial;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    /* overflow: hidden; */
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    vertical-align: middle;
+    max-width: 312px;
 }
 
 .grass3 {
