@@ -1736,6 +1736,13 @@ justify-content: space-around;
     padding-bottom:0em;
   }
 
+  .blocks43 {
+    position: absolute;
+    z-index: 28;
+    top: 386px;
+
+  }
+
   .colAbsolute4 {
     position: absolute;
     top: 164px;
@@ -1858,7 +1865,7 @@ justify-content: space-around;
     #bubble1 {
         max-width: 267px;
         position: absolute;
-        right: -226px;
+      right: -176px;
     top: 95px;
     max-height: 207px;
     }
@@ -2141,7 +2148,7 @@ justify-content: space-around;
     overflow: hidden;
     padding-right: 1em;
     padding-left: 1em;
-    right: 314px;
+    right: 328px;
     padding-bottom: 1em;
 }
 .p {
@@ -2198,7 +2205,7 @@ justify-content: space-around;
 
 #bubble3 {
     position: absolute;
-    right: -253px;
+    right: -219px;
     top: 102px;
     max-height: 263px;
     min-width: 267px;
@@ -2209,6 +2216,7 @@ justify-content: space-around;
     right: -256px;
     top: 88px;
     color: white;
+        left: -36px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -2333,6 +2341,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104, p.tlt105 {
     top: 57px;
     color: white;
     font-family: 'Roboto', sans-serif;
+    left: 80px;
 }
 
 #wrapThis {
@@ -2571,6 +2580,7 @@ max-width:80px;
     top: 91px;
     color: white;
     font-family: 'Roboto', sans-serif;
+        left: 68px;
 }
 
 #bubble3 {
