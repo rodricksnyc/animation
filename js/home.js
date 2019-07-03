@@ -1017,7 +1017,7 @@ $('article').each(function() {
   var elementTop = $(this).offset().top;
   var elementBottom = $(this).offset().top + $(this).outerHeight();
 
-  if ((screenBottom > elementTop + ($(this).find('.hero').height() + 500)) && (screenTop < elementBottom)) {
+  if ((screenBottom > elementTop + ($(this).find('.hero').height() + 400)) && (screenTop < elementBottom)) {
       $('article').removeClass('active2')
       $(this).addClass('active2')
   } else {

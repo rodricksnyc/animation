@@ -19,7 +19,7 @@ body {
 }
 
 #wrapThis {
-  overflow-x:hidden !important;
+  overflow:hidden !important;
 }
 
 .road2 {
