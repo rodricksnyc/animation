@@ -2902,6 +2902,10 @@ width: 95px;
     padding-bottom: 0em;
   }
 
+  .pt1 {
+    padding-top: 0px;
+}
+
   .mobile {
 
     width:100%;
@@ -2964,7 +2968,7 @@ width: 95px;
       padding-right: 1em;
       padding-left: 1em;
 
-      padding-bottom: 2em;
+      padding-bottom: 0em;
 
       margin-left: auto;
       margin-right: auto;
@@ -3066,21 +3070,18 @@ width: 95px;
 
 }
 
-#text2 {
-
-  position: absolute;
-
-    right: 0;
-    top: 82px;
+.ex1, .ex2 {
     max-width: 70px;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    vertical-align: middle;
-    z-index: 999999999;
-    left: 0;
+}
 
+#text1 {
+    position: absolute;
+    right: 0px;
+    top: 82px;
+    max-width: 66px;
+
+    z-index: 999999999;
+        left: -172px;
 }
 
 .blocks43, .blocks4000 {
@@ -3125,19 +3126,18 @@ width: 95px;
     /* margin-bottom:15em; */
 
   }
-#ex1 {
-  position: absolute;
-    top: 48px;
-    max-width: 65px;
-    min-width: 65px;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    vertical-align: middle;
-    right: 24px;
-}
-
+  #ex1 {
+      position: absolute;
+      top: 0px;
+      max-width: 40px;
+      min-width: 40px;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      vertical-align: middle;
+      right: 33px;
+  }
 
 h1.tlt10, h1.tlt101, h1.tlt102, h1.tlt104 {
     font-size: 25px !important;
@@ -3156,8 +3156,15 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     left:0;
     max-height: 100%;
     padding-top: 0em;
-    top: 130px;
+        top: 76px;
     width: 275px;
+}
+
+.sign{
+  position:absolute;
+  z-index:9999;
+  right:0px;
+  top:127px;
 }
 
 #new {
@@ -3178,17 +3185,17 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 }
 #bText2 {
     position: absolute;
-      right: 0;
-      top: 245px;
-      color: white;
-      font-family: 'Roboto', sans-serif;
-      left: 0;
-      margin-left: auto;
-      margin-right: auto;
-      align-items: center;
-      vertical-align: middle;
-      max-width: 275px;
-      min-width: 275px;
+    right: 0;
+    top: 206px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    left: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    vertical-align: middle;
+    max-width: 275px;
+    min-width: 275px;
 }
 
 .lawn {
@@ -3200,21 +3207,36 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     padding-left: 1em;
 }
 
+.sign2 {
+    position: absolute;
+    z-index: 9999;
+    /* right: 0px; */
+    top: 202px;
+    left: -8px;
+}
+
+.colAbsolute6 {
+    position: absolute;
+    z-index: 9;
+    top: 80px;
+    left: -32px;
+    max-width: 80px;
+}
+
 
 .blocks500, .blocks5000 {
-    position:initial;
-
-    top: 850px;
+  position: initial;
+    /* top: 850px; */
     overflow: hidden;
     padding-right: 1em;
     padding-left: 1em;
     right: 0px;
-    padding-bottom: 2em;
+    padding-bottom: 0em;
     max-width: 300px;
     vertical-align: middle;
-
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5em;
 }
 
 .blocks601, .blocks6001 {
@@ -3234,7 +3256,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 #bText1 {
   position: absolute;
     right: 0;
-    top: 188px;
+        top: 137px;
     color: white;
     font-family: 'Roboto', sans-serif;
 
@@ -3280,21 +3302,19 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 }
 
 .text2 {
-    position: absolute;
-    /* right: -23px; */
-    /* top: 231px; */
-    max-width: 75px;
-    position: absolute;
-    right: 0;
-    top: 91px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    /* left: 87px; */
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    vertical-align: middle;
+  max-width: 65px;
+      position: absolute;
+      right: 0;
+      top: 37px;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      /* left: 87px; */
+      left: 190px;
+}
+
+#text {
+  position: inherit;
+    z-index: 999999999;
 }
 
 .text4{
@@ -3351,16 +3371,11 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 
 
 #red1 {
-  max-width: 125px;
+    max-width: 100px;
     position: relative;
     top: 50px;
-    left: 3px;
+    left: 0px;
     right: 0px;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    vertical-align: middle;
     position: absolute;
     z-index: 999;
 }
@@ -3382,18 +3397,13 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 }
 
 #red2 {
-  max-width: 125px;
-    position: relative;
-    top: 137px;
-    left: 3px;
-    right: 0;
-    min-width: 125px;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    vertical-align: middle;
-    z-index: 99999;
+
+      position: relative;
+      top: 111px;
+        left: 177px;
+      right: -176px;
+
+      z-index: 99999;
 }
 
 #red5 {
@@ -3426,15 +3436,16 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
+    padding-bottom: 3em;
 }
 
 #ex2 {
     position: absolute;
-    top: 116px;
+    top: 61px;
     z-index: -1;
     max-width: 65px;
-    left: 42px;
-    z-index:999;
+    left: 36px;
+    z-index: 999;
 }
 
 .blocks701, .blocks7001 {
@@ -3492,19 +3503,19 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     left: 3px;
     max-height: 100%;
     padding-top: 0em;
-    top: 135px;
+  top: 115px;
     max-width: 100%;
       width: 275px;
       height: 222px;
 }
 
 #bubble4 {
-    position: relative;
+  position: initial;
     right: 0;
     left: 3px;
     max-height: 100%;
     padding-top: 0em;
-    top: 149px;
+    /* top: 149px; */
     max-width: 100%;
     right: 0;
     left: 0;
@@ -3514,12 +3525,26 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     align-items: center;
     vertical-align: middle;
     min-width: 100%;
-    margin-bottom: 15em;
-        width: 275px;
-            height: 350px;
+    margin-bottom: 0em;
+    width: 275px;
+    height: 350px;
+    margin-top: 8em;
+
+}
+#text2 {
+  position: relative;
+    z-index: 99999999;
 }
 
+.sign3 {
+  position: absolute;
+    z-index: 9999;
+    /* right: 0px; */
+    top: 185px;
+    left: -8px;
 
+
+  }
 
 #bubble5 {
     position: relative;
@@ -3567,7 +3592,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 
 #bubble3 {
     position: initial;
-    margin-top:9em;
+    margin-top:7em;
     max-height: 335px;
     min-height: 335px;
     display: -webkit-flex;
@@ -3590,8 +3615,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 #bText3 {
     max-width: 250px;
     position: absolute;
-    /* right: -264px; */
-    top: 187px;
+        top: 163px;
     color: white;
     font-family: 'Roboto', sans-serif;
     left: 0px;
@@ -3615,13 +3639,13 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
 }
 
 #bText4 {
-    max-width: 275px;
+    max-width: 265px;
     position: absolute;
     width: 275px;
-    top: 270px;
+    top: 202px;
     color: white;
     font-family: 'Roboto', sans-serif;
-    left: 0px;
+    left: 25px;
     right: 0;
     display: -webkit-flex;
     display: -moz-flex;
@@ -3639,9 +3663,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104 {
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
-
 }
-
 .colAbsolute3 {
     position: absolute;
     top: 105px;
@@ -3744,13 +3766,12 @@ p {
 .grass3 {
   max-width:65px
 }
-
-/* #red5 {
+.sign4 {
     position: absolute;
-
-    top: 110px;
-    max-width: 125px;
-} */
+    z-index: 9999;
+    right: 0px;
+    top: 83px;
+}
 #bubble5 {
     position: relative;
     right: 0;
@@ -3768,7 +3789,7 @@ p {
     vertical-align: middle;
     min-width: 100%;
     margin-bottom:0em;
-    margin-top:0em;
+    margin-top:7em;
 }
 
 #finish {
@@ -3791,7 +3812,7 @@ p {
     left: 0;
     color: white;
     font-family: 'Roboto', sans-serif;
-    top:0px;
+    top:111px;
     min-width: 248px;
     max-width: 248px;
 
@@ -3847,11 +3868,7 @@ p {
       -moz-align-items: center;
       -ms-align-items: center;
       align-items: center;
-      overflow: hidden;
-      /* padding-right: 2em;
-      padding-left: 4em;
-      padding-bottom: 2em;
-      padding-bottom: 3em; */
+
       margin-left: auto;
       margin-right: auto;
       align-items: center;

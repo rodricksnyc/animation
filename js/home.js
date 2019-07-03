@@ -3076,7 +3076,7 @@ setTimeout(function() {
 if ($('.blocks6020').hasClass('active2')) {
 
 setTimeout(function() {
-      $('.blocks6020 .content-top').removeClass('transparent').addClass('animated  slideInRight')
+      $('.blocks6020 .content-top').removeClass('transparent');
 
 }, 1200)
 
