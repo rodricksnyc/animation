@@ -178,7 +178,7 @@ margin-top:300px;
   position: absolute;
   z-index: 28;
   top: 250px;
-  left: 50px;
+  left: 140px;
   -webkit-align-items: center;
   -moz-align-items: center;
   -ms-align-items: center;
@@ -197,7 +197,7 @@ margin-top:300px;
   position: absolute;
   z-index: 28;
   top: 344px;
-  left: 100px;
+  left: 140px;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
@@ -264,7 +264,7 @@ margin-top:300px;
   position: absolute;
   z-index: 28;
   top: 1027px;
-  left: 50px;
+  left: 105px;
   display: -webkit-flex;
 display: -moz-flex;
 display: -ms-flexbox;
@@ -558,7 +558,7 @@ left: 39px;
 .blocks43 {
   position: absolute;
   z-index: 28;
-  top: 384px;
+      top: 366px;
   right: -48px;
 
   display: -webkit-flex;
@@ -592,7 +592,7 @@ left: 39px;
 .blocks601 {
   position: absolute;
   z-index: 28;
-  top: 1009px;
+  top: 991px;
   right: -48px;
 
   display: -webkit-flex;
@@ -603,6 +603,10 @@ left: 39px;
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.stripe2 {
+  right:-20px;
 }
 
 
@@ -729,12 +733,12 @@ align-items: center;
 }
 
 #stripe {
-  position: absolute;
+    position: absolute;
     right: 44px;
     overflow: hidden;
     z-index: 999;
     width: 120px;
-    top: 15px;
+    top: 33px;
 }
 
 #stripe2 {
@@ -749,12 +753,11 @@ align-items: center;
 }
 
 #ex1 {
-      position: absolute;
-      right: -87px;
-      top: -12px;
-      min-width: 80px;
+    position: absolute;
+    right: -48px;
+    top: -15px;
+    min-width: 80px;
 }
-
 #ex3 {
 position: absolute;
 right: -44px;
@@ -766,23 +769,22 @@ max-width: 85px;
 #ex2 {
       position: absolute;
       top: 178px;
-      right: -108px;
+      right: -132px;
 
       z-index: -1;
       max-width: 95px;
 }
 
 #red1 {
-  position: absolute;
-  right: -213px;
-  top: -12px;
-  max-width: 167px;
-
+    position: absolute;
+    right: -167px;
+    top: -12px;
+    max-width: 167px;
 }
 
 #red5 {
   position: absolute;
-  right: 182px;
+  right: 152px;
   top: -4px;
   max-width: 167px;
 }
@@ -790,7 +792,7 @@ max-width: 85px;
 .text5 {
 
   position: absolute;
-  right: 216px;
+  right: 187px;
   top: 42px;
   max-width: 109px;
 
@@ -798,42 +800,40 @@ max-width: 85px;
 
 #red2 {
   position: absolute;
-  right: -67px;
+  right: -97px;
   top: 179px;
 
   min-width: 175px;
 }
 
 .text1 {
-  position: absolute;
-  right: -178px;
-  top: 41px;
-  max-width: 109px;
-
+    position: absolute;
+    right: -134px;
+    top: 41px;
+    max-width: 109px;
 }
 
 .text2 {
   position: absolute;
-  right: -23px;
+  right: -53px;
   top: 231px;
   max-width: 100px;
 
 }
 
 .text4 {
-  position: absolute;
-  right: -23px;
-  top: 223px;
-  max-width: 100px;
-
+    position: absolute;
+    right: -49px;
+    top: 228px;
+    max-width: 93px;
 }
 
 #bubble1 {
-  max-width: 267px;
-  position: absolute;
-  right: -249px;
-  top: 142px;
-  max-height: 238px;
+    max-width: 267px;
+    position: absolute;
+    right: -198px;
+    top: 142px;
+    max-height: 238px;
 }
 
 .colAbsolute7 {
@@ -854,24 +854,24 @@ max-width: 85px;
 }
 
 #bubble3 {
-  position: absolute;
-  right: -261px;
-  top: 160px;
-  max-height: 300px;
-  min-width: 267px;
+    position: absolute;
+    right: -211px;
+    top: 142px;
+    max-height: 300px;
+    min-width: 267px;
 }
 
 #bubble2 {
   max-width: 265px;
       position: absolute;
-      right: -91px;
+      right: -138px;
       top: 341px;
       max-height: 276px;
 }
 
 #bubble4 {
   position: absolute;
-  right: -114px;
+  right: -145px;
   top: 340px;
   max-height:375px;
   min-width: 261px;
@@ -967,14 +967,14 @@ p.tlt107 {
 }
 
 #bText1 {
-  max-width: 253px;
-  position: absolute;
-  right: -254px;
-  top: 136px;
-  color: white;
-  font-family: 'Roboto', sans-serif;
+    max-width: 253px;
+    position: absolute;
+    right: -220px;
+    top: 136px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    left: -46px;
 }
-
 
 #bText5 {
   position: absolute;
@@ -992,17 +992,18 @@ p.tlt107 {
       top: 338px;
       color: white;
       font-family: 'Roboto', sans-serif;
-      left: -122px;
+    left: -78px;
       min-width: 227px;
 }
 
 #bText3 {
-  max-width: 253px;
-  position: absolute;
-  right: -264px;
-  top: 153px;
-  color: white;
-  font-family: 'Roboto', sans-serif;
+    max-width: 264px;
+    position: absolute;
+    right: -235px;
+    top: 131px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    left: -48px;
 }
 
 #bText4 {
@@ -1010,12 +1011,23 @@ p.tlt107 {
   top: 330px;
   color: white;
   font-family: 'Roboto', sans-serif;
-  left: -129px;
+    left: -106px;
   min-width: 228px;
 }
 
 #wrapper {
   width:1200px;
+
+}
+
+.newStripe {
+
+    position: absolute;
+    right: 44px;
+    overflow: hidden;
+    z-index: 999;
+    width: 120px;
+    top: 4px !important;
 
 }
 
