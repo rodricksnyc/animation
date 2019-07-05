@@ -409,672 +409,853 @@ setTimeout(function() {
 
 
 
-//
-// if ($(window).innerWidth() >= 1025) {
-//
-//
-// console.log("i hate shifghtrtt")
-//
-// $(window).scroll(function() {
-// var height = $(window).scrollTop();
-// var element = $('.blocks501'); //change this to your element you want to add the css to
-// if(height  > element.offset().top) {
-//     element.addClass('active2'); //add css class black (change according to own css)
-// }
-//
-// else {
-//     element.removeClass('active2');
-// }
-//
-//
-// if ($('.blocks501').hasClass('active2')) {
-//
-// setTimeout(function() {
-// $('.blocks500 .content-top').removeClass('transparent').addClass('animated slideInUp')
-//
-// })
-//
-// setTimeout(function() {
-// $('.blocks500 .content-middle').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 50)
-//
-// setTimeout(function() {
-// $('.blocks500 .content-bottom').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 100)
-//
-// setTimeout(function() {
-// $('.blocks500 .content-last').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 150)
-//
-// setTimeout(function() {
-// $('.blocks500 .content-secondLast').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 200)
-//
-// setTimeout(function() {
-// $('.blocks500 .content-thirdLast').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 300)
-//
-// setTimeout(function() {
-// $('.blocks500 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 400)
-//
-//
-// setTimeout(function() {
-// $('.blocks500 .content-fifthLast').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 500)
-//
-// setTimeout(function() {
-// $('.blocks500 .content-sixthLast').removeClass('transparent').addClass('animated bounceInDown')
-//
-// }, 700)
-//
-// setTimeout(function() {
-// $('.blocks500 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-tl')
-//
-// }, 1400)
-//
-// setTimeout(function() {
-// $('.blocks501 .content-top').removeClass('transparent').addClass('animated slideInDown')
-//
-// }, 900)
-//
-// setTimeout(function() {
-//   $('.blocks501 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 1000)
-//
-// setTimeout(function() {
-//   $('.blocks501 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 1000)
-//
-// setTimeout(function() {
-//   $('.blocks501 .content-last').removeClass('transparent').addClass('animated fadeInUp')
-//
-// }, 1100)
-//
-// setTimeout(function() {
-//   $('.blocks501 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
-//
-// }, 1100)
-//
-// setTimeout(function() {
-// $('.blocks501 .content-thirdLast').removeClass('transparent');
-// var $tlt101 = $('.tlt101').textillate({
-//   autoStart: true,
-//   selector: '.tlt101',
-//   loop: false,
-//   minDisplayTime: 900,
-//   initialDelay: 200,
-//   in: {
-//     effect: 'fadeInLeft',
-//     delayScale: 1,
-//     delay: 4,
-//     sync: false,
-//     shuffle: true,
-//     reverse: false,
-//     callback: function () {}
-//   },
-//   type: 'char'
-// });
-//
-// }, 1000)
-//
-//
-// }
-//
-// });
-//
-//
-//
-//
-// $(window).scroll(function() {
-// var height2 = $(window).scrollTop();
-// var element2 = $('.blocks601'); //change this to your element you want to add the css to
-// if(height2  > element2.offset().top - 200) {
-//     element2.addClass('active2'); //add css class black (change according to own css)
-// }
-//
-// else {
-//     element2.removeClass('active2');
-// }
-//
-//
-// if ($('.blocks601').hasClass('active2')) {
-//
-//     setTimeout(function() {
-//         $('.blocks600 .content-top').removeClass('transparent').addClass('animated slideInUp')
-//
-//     }, 10)
-//
-//     setTimeout(function() {
-//           $('.blocks600 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-//
-//     }, 100)
-//
-//     setTimeout(function() {
-//           $('.blocks600 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-//
-//     }, 200)
-//
-//     setTimeout(function() {
-//           $('.blocks600 .content-last').removeClass('transparent').addClass('animated  slideInUp')
-//
-//     }, 300)
-//
-//     setTimeout(function() {
-//           $('.blocks600 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-//     }, 400)
-//
-//     setTimeout(function() {
-//           $('.blocks600 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-//     }, 500)
-//
-//     setTimeout(function() {
-//           $('.blocks600 .content-fourthLast').removeClass('transparent');
-//
-//     }, 700)
-//
-//     setTimeout(function() {
-//           $('.blocks600 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-//     }, 800)
-//
-//
-//     setTimeout(function() {
-//           $('.blocks620 .content-top').removeClass('transparent').addClass('animated  slideInRight')
-//
-//     }, 1200)
-//
-//
-//     setTimeout(function() {
-//         $('.blocks601 .content-top').removeClass('transparent').addClass('animated slideInDown')
-//
-//     }, 600)
-//
-//     setTimeout(function() {
-//           $('.blocks601 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-//
-//     }, 700)
-//
-//     setTimeout(function() {
-//           $('.blocks601 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-//
-//     }, 800)
-//
-//     setTimeout(function() {
-//           $('.blocks601 .content-last').removeClass('transparent').addClass('animated fadeInUp')
-//
-//     }, 800)
-//
-//     setTimeout(function() {
-//           $('.blocks601 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
-//
-//     }, 900)
-//
-//     setTimeout(function() {
-//       $('.blocks601 .content-thirdLast').removeClass('transparent');
-//       var $tlt102 = $('.tlt102').textillate({
-//           autoStart: true,
-//           selector: '.tlt102',
-//           loop: false,
-//           minDisplayTime: 900,
-//           initialDelay: 200,
-//           in: {
-//             effect: 'fadeInLeft',
-//             delayScale: 1,
-//             delay: 4,
-//             sync: false,
-//             shuffle: true,
-//             reverse: false,
-//             callback: function () {}
-//           },
-//           type: 'char'
-//       });
-//
-//     }, 800)
-//
-//
-//   }
-//
-// });
-//
-//
-//
-// $(window).scroll(function() {
-// var height3 = $(window).scrollTop();
-// var element3 = $('.blocks701'); //change this to your element you want to add the css to
-// if(height3  > element3.offset().top) {
-//     element3.addClass('active2'); //add css class black (change according to own css)
-// }
-//
-// else {
-//     element3.removeClass('active2');
-// }
-//
-//
-// if ($('.blocks701').hasClass('active2')) {
-//
-// setTimeout(function() {
-// $('.blocks700 .content-top').removeClass('transparent').addClass('animated fadeIn')
-//
-// })
-//
-// setTimeout(function() {
-// $('.blocks700 .content-middle').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 80)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-bottom').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 140)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-last').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 200)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-secondLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 280)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-thirdLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 180)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-fourthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 220)
-//
-//
-// setTimeout(function() {
-// $('.blocks700 .content-fifthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 260)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-sixthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 300)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 340)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-eighthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 380)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-ninthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 420)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-tenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 460)
-//
-//
-// setTimeout(function() {
-// $('.blocks700 .content-eleventhLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 500)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-twelfthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 540)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-thirteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 580)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-fourthteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 620)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-fifthteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 660)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-sixteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 700)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-seventeenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 740)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-eighteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 780)
-//
-// setTimeout(function() {
-//
-// $('.blocks700 .content-nineteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 820)
-//
-// setTimeout(function() {
-// $('.blocks700 .content-twentiethLast').removeClass('transparent').addClass('animated slide-in-bottom')
-//
-// }, 860)
-//
-//
-// setTimeout(function() {
-// $('.blocks700 .content-twentyoneLast').removeClass('transparent').addClass('animated slide-in-bottom')
-// }, 900)
-//
-//
-//
-// setTimeout(function() {
-// $('.blocks701 .content-top').removeClass('transparent').addClass('animated slideInDown')
-//
-// }, 100)
-//
-// setTimeout(function() {
-//   $('.blocks701 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 200)
-//
-// setTimeout(function() {
-//   $('.blocks701 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 300)
-//
-// setTimeout(function() {
-//   $('.blocks701 .content-last').removeClass('transparent').addClass('animated fadeInUp')
-//
-// }, 400)
-//
-// setTimeout(function() {
-//   $('.blocks701 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
-//
-// }, 500)
-//
-// setTimeout(function() {
-// $('.blocks701 .content-thirdLast').removeClass('transparent');
-// var $tlt104 = $('.tlt104').textillate({
-//   autoStart: true,
-//   selector: '.tlt104',
-//   loop: false,
-//   minDisplayTime: 900,
-//   initialDelay: 200,
-//   in: {
-//     effect: 'fadeInLeft',
-//     delayScale: 1,
-//     delay: 4,
-//     sync: false,
-//     shuffle: true,
-//     reverse: false,
-//     callback: function () {}
-//   },
-//   type: 'char'
-// });
-//
-// }, 400)
-//
-// }
-//
-// });
-//
-//
-// $(window).scroll(function() {
-// var height4 = $(window).scrollTop();
-// var element4 = $('.blocks801'); //change this to your element you want to add the css to
-// if(height4  > element4.offset().top -150) {
-//     element4.addClass('active2'); //add css class black (change according to own css)
-// }
-//
-// else {
-//     element4.removeClass('active2');
-// }
-//
-//
-// if ($('.blocks801').hasClass('active2')) {
-//
-//
-// setTimeout(function() {
-//   $('.blocks800 .content-top').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 10)
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 100)
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 200)
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-last').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 300)
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 400)
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 500)
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 600)
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 700)
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-sixthLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 800)
-// setTimeout(function() {
-//     $('.blocks800 .content-seventhLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 900)
-// setTimeout(function() {
-//     $('.blocks800 .content-eighthLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 1000)
-//
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-ninthLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 200)
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-tenthLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 400)
-//
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-eleventhLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 600)
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-twelfthLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 800)
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-thirteenthLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 1000)
-//
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-fourthteenthLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 1200)
-//
-// //edit this elizabeth
-//
-//
-// setTimeout(function() {
-//   $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 900)
-//
-// setTimeout(function() {
-//     $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 900)
-//
-// setTimeout(function() {
-//     $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
-//
-// }, 1000)
-//
-// setTimeout(function() {
-//     $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
-//
-// }, 1000)
-//
-//
-// setTimeout(function() {
-//     $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
-//
-// }, 1200)
-//
-// setTimeout(function() {
-//       $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-//
-//       var $tlt105 = $('.tlt105').textillate({
-//           autoStart: true,
-//           selector: '.tlt105',
-//           loop: false,
-//           minDisplayTime: 900,
-//           initialDelay: 200,
-//           in: {
-//             effect: 'fadeInLeft',
-//             delayScale: 1,
-//             delay: 4,
-//             sync: false,
-//             shuffle: true,
-//             reverse: false,
-//             callback: function () {}
-//           },
-//           type: 'char'
-//       });
-//
-// }, 1000)
-//
-// setTimeout(function() {
-//     $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
-//
-// }, 2800)
-//
-//
-//
-// }
-//
-//
-//
-// });
-//
-//
-//
-// $(window).on('scroll', function() {
-// var screenTop = $(window).scrollTop();
-// var screenBottom = $(window).scrollTop() + window.innerHeight;
-//
-// $('article').each(function() {
-// var elementTop = $(this).offset().top;
-// var elementBottom = $(this).offset().top + $(this).outerHeight();
-//
-// if ((screenBottom > elementTop + ($(this).find('.hero').height() + 400)) && (screenTop < elementBottom)) {
-//     $('article').removeClass('active2')
-//     $(this).addClass('active2')
-// } else {
-//     $(this).removeClass('active2')
-// }
-// })
-//
-// if ($('.blocks900').hasClass('active2')) {
-//
-// setTimeout(function() {
-//     $('.blocks900 .content-top').removeClass('transparent').addClass('animated  slideInUp')
-//
-//     var $tlt106 = $('.tlt106').textillate({
-//         autoStart: true,
-//         selector: '.tlt106',
-//         loop: false,
-//         minDisplayTime: 800,
-//         initialDelay: 20,
-//         in: {
-//           effect: 'fadeInLeft',
-//           delayScale: 2,
-//           delay: 3,
-//           sync: false,
-//           shuffle: true,
-//           reverse: false,
-//           callback: function () {}
-//         },
-//         type: 'char'
-//     });
-//
-// }, 200)
-//
-// setTimeout(function() {
-// $('.blocks900 .content-middle').removeClass('transparent').addClass('animated slideInRight')
-//
-// }, 400)
-//
-// }
-//
-//
-// if ($('.blocks900').hasClass('active2')) {
-//
-// setTimeout(function() {
-//     $('.blocks1000 .content-top').removeClass('transparent').addClass('animated  fadeInLeft')
-//
-//
-//
-// }, 1000)
-//
-// }
-//
-// })
-//
-// }
+
+if ($(window).innerWidth() > 1025) {
+
+
+console.log("i hate shifghtrtt")
+
+$(window).scroll(function() {
+var height = $(window).scrollTop();
+var element = $('.blocks501'); //change this to your element you want to add the css to
+if(height  > element.offset().top) {
+    element.addClass('active2'); //add css class black (change according to own css)
+}
+
+else {
+    element.removeClass('active2');
+}
+
+
+if ($('.blocks501').hasClass('active2')) {
+
+setTimeout(function() {
+$('.blocks500 .content-top').removeClass('transparent').addClass('animated slideInUp')
+
+})
+
+setTimeout(function() {
+$('.blocks500 .content-middle').removeClass('transparent').addClass('animated slideInUp')
+
+}, 50)
+
+setTimeout(function() {
+$('.blocks500 .content-bottom').removeClass('transparent').addClass('animated slideInUp')
+
+}, 100)
+
+setTimeout(function() {
+$('.blocks500 .content-last').removeClass('transparent').addClass('animated slideInUp')
+
+}, 150)
+
+setTimeout(function() {
+$('.blocks500 .content-secondLast').removeClass('transparent').addClass('animated slideInUp')
+
+}, 200)
+
+setTimeout(function() {
+$('.blocks500 .content-thirdLast').removeClass('transparent').addClass('animated slideInUp')
+
+}, 300)
+
+setTimeout(function() {
+$('.blocks500 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
+
+}, 400)
+
+
+setTimeout(function() {
+$('.blocks500 .content-fifthLast').removeClass('transparent').addClass('animated slideInUp')
+
+}, 500)
+
+setTimeout(function() {
+$('.blocks500 .content-sixthLast').removeClass('transparent').addClass('animated bounceInDown')
+
+}, 700)
+
+setTimeout(function() {
+$('.blocks500 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-tl')
+
+}, 1400)
+
+setTimeout(function() {
+$('.blocks501 .content-top').removeClass('transparent').addClass('animated slideInDown')
+
+}, 900)
+
+setTimeout(function() {
+  $('.blocks501 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 1000)
+
+setTimeout(function() {
+  $('.blocks501 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 1000)
+
+setTimeout(function() {
+  $('.blocks501 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+
+}, 1100)
+
+setTimeout(function() {
+  $('.blocks501 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
+
+}, 1100)
+
+setTimeout(function() {
+$('.blocks501 .content-thirdLast').removeClass('transparent');
+var $tlt101 = $('.tlt101').textillate({
+  autoStart: true,
+  selector: '.tlt101',
+  loop: false,
+  minDisplayTime: 900,
+  initialDelay: 200,
+  in: {
+    effect: 'fadeInLeft',
+    delayScale: 1,
+    delay: 4,
+    sync: false,
+    shuffle: true,
+    reverse: false,
+    callback: function () {}
+  },
+  type: 'char'
+});
+
+}, 1000)
+
+
+}
+
+});
+
+
+
+
+$(window).scroll(function() {
+var height2 = $(window).scrollTop();
+var element2 = $('.blocks601'); //change this to your element you want to add the css to
+if(height2  > element2.offset().top - 200) {
+    element2.addClass('active2'); //add css class black (change according to own css)
+}
+
+else {
+    element2.removeClass('active2');
+}
+
+
+if ($('.blocks601').hasClass('active2')) {
+
+    setTimeout(function() {
+        $('.blocks600 .content-top').removeClass('transparent').addClass('animated slideInUp')
+
+    }, 10)
+
+    setTimeout(function() {
+          $('.blocks600 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+    }, 100)
+
+    setTimeout(function() {
+          $('.blocks600 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+
+    }, 200)
+
+    setTimeout(function() {
+          $('.blocks600 .content-last').removeClass('transparent').addClass('animated  slideInUp')
+
+    }, 300)
+
+    setTimeout(function() {
+          $('.blocks600 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
+
+    }, 400)
+
+    setTimeout(function() {
+          $('.blocks600 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
+
+    }, 500)
+
+    setTimeout(function() {
+          $('.blocks600 .content-fourthLast').removeClass('transparent');
+
+    }, 700)
+
+    setTimeout(function() {
+          $('.blocks600 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+    }, 800)
+
+
+    setTimeout(function() {
+          $('.blocks620 .content-top').removeClass('transparent').addClass('animated  slideInRight')
+
+    }, 1200)
+
+
+    setTimeout(function() {
+        $('.blocks601 .content-top').removeClass('transparent').addClass('animated slideInDown')
+
+    }, 600)
+
+    setTimeout(function() {
+          $('.blocks601 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+    }, 700)
+
+    setTimeout(function() {
+          $('.blocks601 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+
+    }, 800)
+
+    setTimeout(function() {
+          $('.blocks601 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+
+    }, 800)
+
+    setTimeout(function() {
+          $('.blocks601 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
+
+    }, 900)
+
+    setTimeout(function() {
+      $('.blocks601 .content-thirdLast').removeClass('transparent');
+      var $tlt102 = $('.tlt102').textillate({
+          autoStart: true,
+          selector: '.tlt102',
+          loop: false,
+          minDisplayTime: 900,
+          initialDelay: 200,
+          in: {
+            effect: 'fadeInLeft',
+            delayScale: 1,
+            delay: 4,
+            sync: false,
+            shuffle: true,
+            reverse: false,
+            callback: function () {}
+          },
+          type: 'char'
+      });
+
+    }, 800)
+
+
+  }
+
+});
+
+
+
+$(window).scroll(function() {
+var height3 = $(window).scrollTop();
+var element3 = $('.blocks701'); //change this to your element you want to add the css to
+if(height3  > element3.offset().top) {
+    element3.addClass('active2'); //add css class black (change according to own css)
+}
+
+else {
+    element3.removeClass('active2');
+}
+
+
+if ($('.blocks701').hasClass('active2')) {
+
+setTimeout(function() {
+$('.blocks700 .content-top').removeClass('transparent').addClass('animated fadeIn')
+
+})
+
+setTimeout(function() {
+$('.blocks700 .content-middle').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 80)
+
+setTimeout(function() {
+$('.blocks700 .content-bottom').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 140)
+
+setTimeout(function() {
+$('.blocks700 .content-last').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 200)
+
+setTimeout(function() {
+$('.blocks700 .content-secondLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 280)
+
+setTimeout(function() {
+$('.blocks700 .content-thirdLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 180)
+
+setTimeout(function() {
+$('.blocks700 .content-fourthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 220)
+
+
+setTimeout(function() {
+$('.blocks700 .content-fifthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 260)
+
+setTimeout(function() {
+$('.blocks700 .content-sixthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 300)
+
+setTimeout(function() {
+$('.blocks700 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 340)
+
+setTimeout(function() {
+$('.blocks700 .content-eighthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 380)
+
+setTimeout(function() {
+$('.blocks700 .content-ninthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 420)
+
+setTimeout(function() {
+$('.blocks700 .content-tenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 460)
+
+
+setTimeout(function() {
+$('.blocks700 .content-eleventhLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 500)
+
+setTimeout(function() {
+$('.blocks700 .content-twelfthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 540)
+
+setTimeout(function() {
+$('.blocks700 .content-thirteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 580)
+
+setTimeout(function() {
+$('.blocks700 .content-fourthteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 620)
+
+setTimeout(function() {
+$('.blocks700 .content-fifthteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 660)
+
+setTimeout(function() {
+$('.blocks700 .content-sixteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 700)
+
+setTimeout(function() {
+$('.blocks700 .content-seventeenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 740)
+
+setTimeout(function() {
+$('.blocks700 .content-eighteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 780)
+
+setTimeout(function() {
+
+$('.blocks700 .content-nineteenthLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 820)
+
+setTimeout(function() {
+$('.blocks700 .content-twentiethLast').removeClass('transparent').addClass('animated slide-in-bottom')
+
+}, 860)
+
+
+setTimeout(function() {
+$('.blocks700 .content-twentyoneLast').removeClass('transparent').addClass('animated slide-in-bottom')
+}, 900)
+
+
+
+setTimeout(function() {
+$('.blocks701 .content-top').removeClass('transparent').addClass('animated slideInDown')
+
+}, 100)
+
+setTimeout(function() {
+  $('.blocks701 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 200)
+
+setTimeout(function() {
+  $('.blocks701 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 300)
+
+setTimeout(function() {
+  $('.blocks701 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+
+}, 400)
+
+setTimeout(function() {
+  $('.blocks701 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
+
+}, 500)
+
+setTimeout(function() {
+$('.blocks701 .content-thirdLast').removeClass('transparent');
+var $tlt104 = $('.tlt104').textillate({
+  autoStart: true,
+  selector: '.tlt104',
+  loop: false,
+  minDisplayTime: 900,
+  initialDelay: 200,
+  in: {
+    effect: 'fadeInLeft',
+    delayScale: 1,
+    delay: 4,
+    sync: false,
+    shuffle: true,
+    reverse: false,
+    callback: function () {}
+  },
+  type: 'char'
+});
+
+}, 400)
+
+}
+
+});
+
+
+$(window).scroll(function() {
+var height4 = $(window).scrollTop();
+var element4 = $('.blocks801'); //change this to your element you want to add the css to
+if(height4  > element4.offset().top -150) {
+    element4.addClass('active2'); //add css class black (change according to own css)
+}
+
+else {
+    element4.removeClass('active2');
+}
+
+
+if ($('.blocks801').hasClass('active2')) {
+
+
+setTimeout(function() {
+  $('.blocks800 .content-top').removeClass('transparent').addClass('animated slideInUp')
+
+}, 10)
+
+setTimeout(function() {
+    $('.blocks800 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 100)
+
+setTimeout(function() {
+    $('.blocks800 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 200)
+
+setTimeout(function() {
+    $('.blocks800 .content-last').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 300)
+
+setTimeout(function() {
+    $('.blocks800 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 400)
+
+setTimeout(function() {
+    $('.blocks800 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 500)
+
+setTimeout(function() {
+    $('.blocks800 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 600)
+
+setTimeout(function() {
+    $('.blocks800 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 700)
+
+setTimeout(function() {
+    $('.blocks800 .content-sixthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 800)
+setTimeout(function() {
+    $('.blocks800 .content-seventhLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 900)
+setTimeout(function() {
+    $('.blocks800 .content-eighthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 1000)
+
+
+setTimeout(function() {
+    $('.blocks800 .content-ninthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 200)
+
+setTimeout(function() {
+    $('.blocks800 .content-tenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 400)
+
+
+setTimeout(function() {
+    $('.blocks800 .content-eleventhLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 600)
+
+setTimeout(function() {
+    $('.blocks800 .content-twelfthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 800)
+
+setTimeout(function() {
+    $('.blocks800 .content-thirteenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1000)
+
+
+setTimeout(function() {
+    $('.blocks800 .content-fourthteenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1200)
+
+//edit this elizabeth
+
+
+setTimeout(function() {
+  $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
+
+}, 900)
+
+setTimeout(function() {
+    $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 900)
+
+setTimeout(function() {
+    $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
+
+}, 1000)
+
+setTimeout(function() {
+    $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+
+}, 1000)
+
+
+setTimeout(function() {
+    $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
+
+}, 1200)
+
+setTimeout(function() {
+      $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+      var $tlt105 = $('.tlt105').textillate({
+          autoStart: true,
+          selector: '.tlt105',
+          loop: false,
+          minDisplayTime: 900,
+          initialDelay: 200,
+          in: {
+            effect: 'fadeInLeft',
+            delayScale: 1,
+            delay: 4,
+            sync: false,
+            shuffle: true,
+            reverse: false,
+            callback: function () {}
+          },
+          type: 'char'
+      });
+
+}, 1000)
+
+setTimeout(function() {
+    $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
+
+}, 2800)
+
+
+
+}
+
+
+
+});
+
+
+
+$(window).on('scroll', function() {
+var screenTop = $(window).scrollTop();
+var screenBottom = $(window).scrollTop() + window.innerHeight;
+
+$('article').each(function() {
+var elementTop = $(this).offset().top;
+var elementBottom = $(this).offset().top + $(this).outerHeight();
+
+if ((screenBottom > elementTop + ($(this).find('.hero').height() + 400)) && (screenTop < elementBottom)) {
+    $('article').removeClass('active2')
+    $(this).addClass('active2')
+} else {
+    $(this).removeClass('active2')
+}
+})
+
+if ($('.blocks900').hasClass('active2')) {
+
+setTimeout(function() {
+    $('.blocks900 .content-top').removeClass('transparent').addClass('animated  slideInUp')
+
+    var $tlt106 = $('.tlt106').textillate({
+        autoStart: true,
+        selector: '.tlt106',
+        loop: false,
+        minDisplayTime: 800,
+        initialDelay: 20,
+        in: {
+          effect: 'fadeInLeft',
+          delayScale: 2,
+          delay: 3,
+          sync: false,
+          shuffle: true,
+          reverse: false,
+          callback: function () {}
+        },
+        type: 'char'
+    });
+
+}, 200)
+
+setTimeout(function() {
+$('.blocks900 .content-middle').removeClass('transparent').addClass('animated slideInRight')
+
+}, 400)
+
+}
+
+
+if ($('.blocks900').hasClass('active2')) {
+
+setTimeout(function() {
+    $('.blocks1000 .content-top').removeClass('transparent').addClass('animated  fadeInLeft')
+
+
+
+}, 1000)
+
+}
+
+})
+
+}
 
 if ($(window).innerWidth() < 1024) {
 console.log("i hate shit")
+
+
+
+
+$(window).scroll(function() {
+var height4 = $(window).scrollTop();
+var element4 = $('.blocks801'); //change this to your element you want to add the css to
+if(height4  > element4.offset().top -360) {
+
+  console.log("i fucking hate shit")
+    element4.addClass('active2'); //add css class black (change according to own css)
+}
+
+else {
+    element4.removeClass('active2');
+}
+
+
+if ($('.blocks801').hasClass('active2')) {
+
+
+setTimeout(function() {
+  $('.blocks800 .content-top').removeClass('transparent').addClass('animated slideInUp')
+
+}, 10)
+
+setTimeout(function() {
+    $('.blocks800 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 100)
+
+setTimeout(function() {
+    $('.blocks800 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 200)
+
+setTimeout(function() {
+    $('.blocks800 .content-last').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 300)
+
+setTimeout(function() {
+    $('.blocks800 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 400)
+
+setTimeout(function() {
+    $('.blocks800 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 500)
+
+setTimeout(function() {
+    $('.blocks800 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 600)
+
+setTimeout(function() {
+    $('.blocks800 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 700)
+
+setTimeout(function() {
+    $('.blocks800 .content-sixthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 800)
+setTimeout(function() {
+    $('.blocks800 .content-seventhLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 900)
+setTimeout(function() {
+    $('.blocks800 .content-eighthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 1000)
+
+
+setTimeout(function() {
+    $('.blocks800 .content-ninthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 200)
+
+setTimeout(function() {
+    $('.blocks800 .content-tenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 400)
+
+
+setTimeout(function() {
+    $('.blocks800 .content-eleventhLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 600)
+
+setTimeout(function() {
+    $('.blocks800 .content-twelfthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 800)
+
+setTimeout(function() {
+    $('.blocks800 .content-thirteenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1000)
+
+
+setTimeout(function() {
+    $('.blocks800 .content-fourthteenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1200)
+
+//edit this elizabeth
+
+
+setTimeout(function() {
+  $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
+
+}, 900)
+
+setTimeout(function() {
+    $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 900)
+
+setTimeout(function() {
+    $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
+
+}, 1000)
+
+setTimeout(function() {
+    $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+
+}, 1000)
+
+
+setTimeout(function() {
+    $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
+
+}, 1200)
+
+setTimeout(function() {
+      $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+      var $tlt105 = $('.tlt105').textillate({
+          autoStart: true,
+          selector: '.tlt105',
+          loop: false,
+          minDisplayTime: 900,
+          initialDelay: 200,
+          in: {
+            effect: 'fadeInLeft',
+            delayScale: 1,
+            delay: 4,
+            sync: false,
+            shuffle: true,
+            reverse: false,
+            callback: function () {}
+          },
+          type: 'char'
+      });
+
+}, 1000)
+
+setTimeout(function() {
+    $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
+
+}, 2800)
+
+
+
+}
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1086,14 +1267,13 @@ $('article').each(function() {
   var elementTop = $(this).offset().top;
   var elementBottom = $(this).offset().top + $(this).outerHeight();
 
-  if ((screenBottom > elementTop + ($(this).find('.hero').height() )) && (screenTop < elementBottom)) {
+  if ((screenBottom > elementTop + ($(this).find('.hero').height() + 300)) && (screenTop < elementBottom)) {
       $('article').removeClass('active2')
       $(this).addClass('active2')
   } else {
       $(this).removeClass('active2')
   }
 })
-
 
 
 
@@ -1144,235 +1324,7 @@ setTimeout(function() {
 
 })
 
-$(window).on('scroll', function() {
-var screenTop = $(window).scrollTop();
-var screenBottom = $(window).scrollTop() + window.innerHeight;
 
-$('section').each(function() {
-    var elementTop = $(this).offset().top;
-    var elementBottom = $(this).offset().top + $(this).outerHeight();
-
-    if ((screenBottom > elementTop + ($(this).find('.heros').height() /10 )) && (screenTop < elementBottom)) {
-        $('section').removeClass('active2')
-        $(this).addClass('active2')
-    } else {
-        $(this).removeClass('active2')
-    }
-})
-
-if ($('.blocks802').hasClass('active2')) {
-
-
-setTimeout(function() {
-    $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
-
-}, 100)
-
-setTimeout(function() {
-      $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-
-      var $tlt105 = $('.tlt105').textillate({
-          autoStart: true,
-          selector: '.tlt105',
-          loop: false,
-          minDisplayTime: 900,
-          initialDelay: 200,
-          in: {
-            effect: 'fadeInLeft',
-            delayScale: 1,
-            delay: 4,
-            sync: false,
-            shuffle: true,
-            reverse: false,
-            callback: function () {}
-          },
-          type: 'char'
-      });
-
-}, 200)
-
-setTimeout(function() {
-    $('.blocks802 .content-bottom').removeClass('transparent').addClass('animated slideInUp')
-
-}, 300)
-
-
-}
-
-if ($('.blocks801').hasClass('active2')) {
-
-
-setTimeout(function() {
-    $('.blocks800 .content-top').removeClass('transparent').addClass('animated slideInUp')
-
-}, 100)
-
-setTimeout(function() {
-      $('.blocks800 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-
-}, 200)
-
-setTimeout(function() {
-      $('.blocks800 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-
-}, 300)
-
-setTimeout(function() {
-      $('.blocks800 .content-last').removeClass('transparent').addClass('animated  slideInUp')
-
-}, 400)
-
-setTimeout(function() {
-      $('.blocks800 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
-
-}, 500)
-setTimeout(function() {
-      $('.blocks800 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
-
-}, 600)
-
-setTimeout(function() {
-      $('.blocks800 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
-
-}, 700)
-
-setTimeout(function() {
-      $('.blocks800 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
-
-}, 800)
-
-setTimeout(function() {
-      $('.blocks800 .content-sixthLast').removeClass('transparent').addClass('animated  slideInUp')
-
-}, 900)
-setTimeout(function() {
-      $('.blocks800 .content-seventhLast').removeClass('transparent').addClass('animated  slideInUp')
-
-}, 1000)
-setTimeout(function() {
-      $('.blocks800 .content-eighthLast').removeClass('transparent').addClass('animated  slideInUp')
-
-}, 1100)
-
-
-setTimeout(function() {
-      $('.blocks800 .content-ninthLast').removeClass('transparent').addClass('animated bounceIn')
-
-}, 1400)
-
-setTimeout(function() {
-      $('.blocks800 .content-tenthLast').removeClass('transparent').addClass('animated bounceIn')
-
-}, 1500)
-
-
-setTimeout(function() {
-      $('.blocks800 .content-eleventhLast').removeClass('transparent').addClass('animated bounceIn')
-
-}, 1600)
-
-setTimeout(function() {
-      $('.blocks800 .content-twelfthLast').removeClass('transparent').addClass('animated bounceIn')
-
-}, 1700)
-
-setTimeout(function() {
-      $('.blocks800 .content-thirteenthLast').removeClass('transparent').addClass('animated bounceIn')
-
-}, 1800)
-
-
-setTimeout(function() {
-      $('.blocks800 .content-fourthteenthLast').removeClass('transparent').addClass('animated bounceIn')
-
-}, 1900)
-
-//edit this elizabeth
-
-
-setTimeout(function() {
-    $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
-
-}, 2200)
-
-setTimeout(function() {
-      $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-
-}, 3000)
-
-setTimeout(function() {
-      $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
-
-}, 3500)
-
-setTimeout(function() {
-      $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
-
-}, 2600)
-
-
-  setTimeout(function() {
-      $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
-
-  }, 4000)
-
-  setTimeout(function() {
-        $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-
-        var $tlt105 = $('.tlt105').textillate({
-            autoStart: true,
-            selector: '.tlt105',
-            loop: false,
-            minDisplayTime: 900,
-            initialDelay: 200,
-            in: {
-              effect: 'fadeInLeft',
-              delayScale: 1,
-              delay: 4,
-              sync: false,
-              shuffle: true,
-              reverse: false,
-              callback: function () {}
-            },
-            type: 'char'
-        });
-
-  }, 4300)
-
-  setTimeout(function() {
-      $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
-
-  }, 5800)
-
-
-
-}
-// if ($('.blocks801').hasClass('active2')) {
-//
-// setTimeout(function() {
-//     $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 20)
-//
-// setTimeout(function() {
-//       $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 30)
-//
-// setTimeout(function() {
-//       $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
-//
-// }, 40)
-//
-// setTimeout(function() {
-//       $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
-//
-// }, 50)
-//
-// }
-
-
-})
 
 $(window).on('scroll', function() {
 var screenTop = $(window).scrollTop();
@@ -1449,9 +1401,6 @@ setTimeout(function() {
 
 
 })
-
-
-
 
 
 
@@ -1647,25 +1596,6 @@ setTimeout(function() {
 
 }
 
-
-
-
-// if ($('.blocks1000').hasClass('active2')) {
-// setTimeout(function() {
-//       $('.blocks1000 .content-top').removeClass('transparent').addClass('animated  fadeInLeft')
-//
-// }, 100)
-//
-// }
-
-if ($('.blocks803').hasClass('active2')) {
-setTimeout(function() {
-    $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
-
-}, 400)
-
-
-}
 
 
 
@@ -2253,173 +2183,6 @@ var $tlt104 = $('.tlt104').textillate({
 });
 
 
-// $(window).scroll(function() {
-//   var height4 = $(window).scrollTop();
-//   var element4 = $('.blocks801'); //change this to your element you want to add the css to
-//   if(height4  > element4.offset().top -300) {
-//       element4.addClass('active2'); //add css class black (change according to own css)
-//   }
-//
-//   else {
-//       element4.removeClass('active2');
-//   }
-//
-//
-// if ($('.blocks801').hasClass('active2')) {
-//
-//
-// setTimeout(function() {
-//     $('.blocks800 .content-top').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 100)
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 200)
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 300)
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-last').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 400)
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 500)
-// setTimeout(function() {
-//       $('.blocks800 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 600)
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 700)
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 800)
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-sixthLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 900)
-// setTimeout(function() {
-//       $('.blocks800 .content-seventhLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 1000)
-// setTimeout(function() {
-//       $('.blocks800 .content-eighthLast').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 1100)
-//
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-ninthLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 1400)
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-tenthLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 1500)
-//
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-eleventhLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 1600)
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-twelfthLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 1700)
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-thirteenthLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 1800)
-//
-//
-// setTimeout(function() {
-//       $('.blocks800 .content-fourthteenthLast').removeClass('transparent').addClass('animated bounceIn')
-//
-// }, 1900)
-//
-// //edit this elizabeth
-//
-//
-// setTimeout(function() {
-//     $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
-//
-// }, 2200)
-//
-// setTimeout(function() {
-//       $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-//
-// }, 3000)
-//
-// setTimeout(function() {
-//       $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
-//
-// }, 3500)
-//
-// setTimeout(function() {
-//       $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
-//
-// }, 2600)
-//
-//
-//   setTimeout(function() {
-//       $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
-//
-//   }, 4000)
-//
-//   setTimeout(function() {
-//         $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
-//
-//         var $tlt105 = $('.tlt105').textillate({
-//             autoStart: true,
-//             selector: '.tlt105',
-//             loop: false,
-//             minDisplayTime: 900,
-//             initialDelay: 200,
-//             in: {
-//               effect: 'fadeInLeft',
-//               delayScale: 1,
-//               delay: 4,
-//               sync: false,
-//               shuffle: true,
-//               reverse: false,
-//               callback: function () {}
-//             },
-//             type: 'char'
-//         });
-//
-//   }, 4300)
-//
-//   setTimeout(function() {
-//       $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
-//
-//   }, 5800)
-//
-//
-//
-// }
-//
-//
-//
-// });
-
-
-
 
 
 
@@ -2427,12 +2190,12 @@ $(window).on('scroll', function() {
 var screenTop = $(window).scrollTop();
 var screenBottom = $(window).scrollTop() + window.innerHeight;
 
-$('article').each(function() {
+$('section').each(function() {
   var elementTop = $(this).offset().top;
   var elementBottom = $(this).offset().top + $(this).outerHeight();
 
-  if ((screenBottom > elementTop + ($(this).find('.hero').height() + 100)) && (screenTop < elementBottom)) {
-      $('article').removeClass('active2')
+  if ((screenBottom > elementTop + ($(this).find('.heros').height() -400 )) && (screenTop < elementBottom)) {
+      $('section').removeClass('active2')
       $(this).addClass('active2')
   } else {
       $(this).removeClass('active2')
@@ -2441,11 +2204,139 @@ $('article').each(function() {
 
 
 
+if ($('.blocks8002').hasClass('active2')) {
+
+
+setTimeout(function() {
+  $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
+
+}, 100)
+
+setTimeout(function() {
+    $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+    var $tlt105 = $('.tlt105').textillate({
+        autoStart: true,
+        selector: '.tlt105',
+        loop: false,
+        minDisplayTime: 900,
+        initialDelay: 200,
+        in: {
+          effect: 'fadeInLeft',
+          delayScale: 1,
+          delay: 4,
+          sync: false,
+          shuffle: true,
+          reverse: false,
+          callback: function () {}
+        },
+        type: 'char'
+    });
+
+}, 200)
+
+setTimeout(function() {
+  $('.blocks802 .content-bottom').removeClass('transparent').addClass('animated slideInRight')
+
+}, 300)
+
+
+}
+
+if ($('.blocks800').hasClass('active2')) {
+
+setTimeout(function() {
+  $('.blocks800 .content-top').removeClass('transparent').addClass('animated slideInUp')
+
+}, 100)
+
+setTimeout(function() {
+    $('.blocks800 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 200)
+
+setTimeout(function() {
+    $('.blocks800 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 300)
+
+setTimeout(function() {
+    $('.blocks800 .content-last').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 400)
+
+setTimeout(function() {
+    $('.blocks800 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 500)
+setTimeout(function() {
+    $('.blocks800 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 600)
+
+setTimeout(function() {
+    $('.blocks800 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 700)
+
+setTimeout(function() {
+    $('.blocks800 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 800)
+
+setTimeout(function() {
+    $('.blocks800 .content-sixthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 900)
+setTimeout(function() {
+    $('.blocks800 .content-seventhLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 1000)
+setTimeout(function() {
+    $('.blocks800 .content-eighthLast').removeClass('transparent').addClass('animated  slideInUp')
+
+}, 1100)
+
+
+setTimeout(function() {
+    $('.blocks800 .content-ninthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1400)
+
+setTimeout(function() {
+    $('.blocks800 .content-tenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1500)
+
+
+setTimeout(function() {
+    $('.blocks800 .content-eleventhLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1600)
+
+setTimeout(function() {
+    $('.blocks800 .content-twelfthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1700)
+
+setTimeout(function() {
+    $('.blocks800 .content-thirteenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1800)
+
+
+setTimeout(function() {
+    $('.blocks800 .content-fourthteenthLast').removeClass('transparent').addClass('animated bounceIn')
+
+}, 1900)
+
+
+}
 
 
 
-})
 
+});
 
 
 }

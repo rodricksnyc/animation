@@ -2836,6 +2836,7 @@ padding-left: 1em;
   padding-top: 0em;
   width: 500px;
   padding-bottom: 0em;
+      margin-top: -25px;
 }
 
 .blocks1000 {
@@ -3766,14 +3767,14 @@ font-size:14px;
     -ms-align-items: center;
     align-items: center;
     /* overflow: hidden; */
-    padding-right: 1em;
-    padding-left: 1em;
+    padding-right: 0em;
+    padding-left: 0em;
     padding-bottom: 0em;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
-    max-width: 312px;
+    max-width: 250px;
 }
 
 .grass3 {
