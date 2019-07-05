@@ -2849,7 +2849,7 @@ padding-left: 1em;
   padding-top: 0em;
   width: 500px;
   padding-bottom: 0em;
-      margin-top: -25px;
+  margin-top: -12px;
 }
 
 .blocks1000 {
@@ -2863,7 +2863,7 @@ padding-left: 1em;
   position: absolute;
   z-index: 99999;
   max-width: 200px;
-  bottom: -182px;
+  bottom: -205px;
 }
 
 #finish {

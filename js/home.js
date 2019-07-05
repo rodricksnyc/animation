@@ -3249,6 +3249,12 @@ $('.blocks9000 .content-middle').removeClass('transparent').addClass('animated s
 
 
 setTimeout(function() {
+$('.blocks9000 .content-bottom').removeClass('transparent').addClass('animated slideInLeft')
+
+}, 300)
+
+
+setTimeout(function() {
     $('.blocks0 .content-top').removeClass('transparent').addClass('animated  fadeInLeft')
 
 }, 700)
