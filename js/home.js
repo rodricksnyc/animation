@@ -1055,6 +1055,12 @@ $('.blocks900 .content-middle').removeClass('transparent').addClass('animated sl
 
 }, 400)
 
+
+setTimeout(function() {
+$('.blocks900 .content-bottom').removeClass('transparent').addClass('animated slideInLeft')
+
+}, 400)
+
 }
 
 

@@ -7,6 +7,19 @@ margin-right:0px;
 overflow-x: hidden;
 }
 
+.btn-danger  {
+  color:white;
+  float:left;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.btn-danger  a {
+  color:white;
+text-decoration:none;
+}
+
+
 .road {
 position: absolute;
 z-index: 0;
@@ -300,7 +313,7 @@ position: absolute;
 top: 2195px;
 z-index: 9999;
 min-height: 300px;
-padding-top: 5em;
+padding-top: 4em;
 padding-bottom: 1em;
 width: 100%;
 height: auto;
