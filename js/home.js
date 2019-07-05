@@ -1095,6 +1095,17 @@ setTimeout(function() {
 
 }
 
+
+if ($(window).innerWidth() < 767) {
+$("#clickThis2").click(function(){
+    $('html, body').animate({
+            scrollTop: $("#anchorPoint2").offset().top -100}, 500);
+});
+
+}
+
+
+
 if ($(window).innerWidth() < 1024) {
 console.log("i hate shit")
 

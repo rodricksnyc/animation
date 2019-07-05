@@ -47,13 +47,16 @@ overflow-x: hidden;
 
 
 
-
-
 .fa-arrow-down {
-  color: white;
-    font-size: 20px;
-    padding-top: 8px;
-    padding-left: 7px;
+
+    color: white;
+    font-size: 13px;
+    padding-top: 0px;
+    padding-left: 4px;
+    font-weight: 100;
+
+    margin-top: 0px;
+
 }
 
 .btn-danger  a {
@@ -1779,6 +1782,15 @@ display:none;
 
 }
 
+@media (max-width:1024px) {
+  .btn-danger {
+    color: white;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+}
+
 @media (max-width:1199px) and (min-width:1025px) {
 .blocks40 {
   position: absolute;
@@ -1790,6 +1802,8 @@ display:none;
 }
 
 @media (max-width:1024px) and (min-width:992px) {
+
+
 #wrapper {
   max-width:1024px;
   padding-bottom:0em;
@@ -2967,6 +2981,46 @@ padding-left: 1em;
   display:none;
 }
 
+.blocksNew {
+  position: absolute;
+    left: 25px;
+    top: 252px;
+}
+
+
+@-webkit-keyframes slideInLeft2 {
+  from {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInLeft2 {
+  from {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft2 {
+  -webkit-animation-name: slideInLeft2;
+  animation-name: slideInLeft2;
+}
+
+
+
 .showOnMobile {
   display:block;
   background: #72b5e4;
@@ -3025,7 +3079,7 @@ padding-left: 1em;
 .blocks41, .blocks410 {
   position: absolute;
   z-index: 28;
-  top: 628px;
+  top: 634px;
   left: 3em;
 
 }
@@ -3240,8 +3294,16 @@ right:0px;
 top:127px;
 }
 
+#mediumS {
+    position: absolute;
+    z-index: 9;
+    top: 22px;
+    left: -32px;
+    max-width: 28px;
+}
+
 #new {
-top: 118px;
+top: 127px;
 }
 #bow {
 position: absolute;
@@ -3324,6 +3386,7 @@ position: initial;
   -ms-flex-direction: column;
   flex-direction: column;
   vertical-align: middle;
+      margin-top: -5px;
 }
 
 #bText1 {
@@ -3769,7 +3832,7 @@ position: initial;
 .blocks40 {
   position: absolute;
   z-index: 28;
-  top: -90px;
+      top: -66px;
   right: 27px;
 
 }
@@ -3836,7 +3899,7 @@ font-size:14px;
 }
 
 .grass3 {
-max-width:65px
+max-width:50px
 }
 .sign4 {
   position: absolute;
@@ -3864,7 +3927,17 @@ max-width:65px
   margin-top:7em;
 }
 
+
+#bigS2 {
+    position: absolute;
+    z-index: 9;
+    top: 0px;
+    left: 34px;
+    right: -10px;
+    max-width: 39px;
+}
 #finish {
+  margin-top: 1em;
   position: initial;
   display:flex;
   justify-content: flex-start;
