@@ -1273,7 +1273,7 @@ $('article').each(function() {
   var elementTop = $(this).offset().top;
   var elementBottom = $(this).offset().top + $(this).outerHeight();
 
-  if ((screenBottom > elementTop + ($(this).find('.hero').height() + 200)) && (screenTop < elementBottom)) {
+  if ((screenBottom > elementTop + ($(this).find('.hero').height() + 150)) && (screenTop < elementBottom)) {
       $('article').removeClass('active2')
       $(this).addClass('active2')
   } else {
@@ -1311,6 +1311,12 @@ setTimeout(function() {
 
 setTimeout(function() {
 $('.blocks900 .content-middle').removeClass('transparent').addClass('animated slideInRight')
+
+}, 3300)
+
+
+setTimeout(function() {
+$('.blocks900 .content-bottom').removeClass('transparent').addClass('animated slideInLeft')
 
 }, 3300)
 
