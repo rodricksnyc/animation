@@ -2326,13 +2326,12 @@ max-width:65px;
 }
 
 #bubble1 {
-    /* max-width: 220px; */
-    position: absolute;
-    right: -232px;
-    /* top: 56px; */
-    max-height: 166px;
-    top: 13px;
-    min-width: 250px;
+      position: absolute;
+      right: -232px;
+
+      max-height: 186px;
+      top: -7px;
+      min-width: 250px;
 }
 
 h1.tlt10, h1.tlt101, h1.tlt102, h1.tlt104,  h1.tlt105 {
@@ -2351,7 +2350,7 @@ p.tlt10, p.tlt101, p.tlt102, p.tlt104, p.tlt105 {
   /* max-width: 213px; */
   position: absolute;
   right: -243px;
-  top: 57px;
+  top: 52px;
   color: white;
   font-family: 'Roboto', sans-serif;
   left: 80px;

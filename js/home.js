@@ -1194,28 +1194,28 @@ setTimeout(function() {
 setTimeout(function() {
   $('.blocks801 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-}, 900)
+}, 100)
 
 setTimeout(function() {
     $('.blocks801 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 900)
+}, 200)
 
 setTimeout(function() {
     $('.blocks801 .content-bottom').removeClass('transparent').addClass('animated  slideInDown')
 
-}, 1000)
+}, 300)
 
 setTimeout(function() {
     $('.blocks801 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 1000)
+}, 400)
 
 
 setTimeout(function() {
     $('.blocks802 .content-top').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 1200)
+}, 500)
 
 setTimeout(function() {
       $('.blocks802 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
@@ -1238,7 +1238,7 @@ setTimeout(function() {
           type: 'char'
       });
 
-}, 1000)
+}, 400)
 
 setTimeout(function() {
     $('.blocks803 .content-top').removeClass('transparent').addClass('animated lightSpeedIn')
@@ -1246,21 +1246,11 @@ setTimeout(function() {
 }, 2800)
 
 
-
 }
 
 
 
 });
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1459,7 +1449,7 @@ setTimeout(function() {
 setTimeout(function() {
       $('.blocks43 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 800)
+}, 200)
 
 setTimeout(function() {
   $('.blocks43 .content-thirdLast').removeClass('transparent');
@@ -1481,44 +1471,44 @@ setTimeout(function() {
       type: 'char'
   });
 
-}, 1000)
+}, 150)
 
 setTimeout(function() {
       $('.blocks43 .content-fourthLast').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 1600)
+}, 200)
 
 
 }
 
 if ($('.blocks501').hasClass('active2')) {
 
-
+console.log("501 has it")
 
 setTimeout(function() {
   $('.blocks501 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-}, 100)
+})
 
 setTimeout(function() {
     $('.blocks501 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 300)
+}, 50)
 
 setTimeout(function() {
     $('.blocks501 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 500)
+}, 100)
 
 setTimeout(function() {
     $('.blocks501 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 700)
+}, 200)
 
 setTimeout(function() {
     $('.blocks501 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 900)
+}, 150)
 
 setTimeout(function() {
 $('.blocks501 .content-thirdLast').removeClass('transparent');
@@ -1540,12 +1530,12 @@ var $tlt101 = $('.tlt101').textillate({
     type: 'char'
 });
 
-}, 1100)
+}, 150)
 
 setTimeout(function() {
     $('.blocks501 .content-fourthLast').removeClass('transparent').addClass('animated slideInUp')
 
-}, 1300)
+}, 200)
 
 
 }
@@ -1699,6 +1689,9 @@ if ($('.blocks200').hasClass('active2')) {
 
 if ($('.blocks500').hasClass('active2')) {
 
+
+
+
 setTimeout(function() {
 $('.blocks500 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
@@ -1822,37 +1815,37 @@ $('.blocks500 .content-fifthLast').removeClass('transparent').addClass('animated
 setTimeout(function() {
 $('.blocks500 .content-sixthLast').removeClass('transparent').addClass('animated bounceInDown')
 
-}, 2700)
+}, 1200)
 
 setTimeout(function() {
 $('.blocks500 .content-seventhLast').removeClass('transparent').addClass('animated slide-in-tl')
 
-}, 2800)
+}, 1800)
 
 setTimeout(function() {
   $('.blocks501 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-}, 1500)
+}, 100)
 
 setTimeout(function() {
     $('.blocks501 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1700)
+}, 200)
 
 setTimeout(function() {
     $('.blocks501 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1900)
+}, 300)
 
 setTimeout(function() {
     $('.blocks501 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 2100)
+}, 400)
 
 setTimeout(function() {
     $('.blocks501 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 4000)
+}, 500)
 
 setTimeout(function() {
 $('.blocks501 .content-thirdLast').removeClass('transparent');
@@ -1874,7 +1867,7 @@ var $tlt101 = $('.tlt101').textillate({
     type: 'char'
 });
 
-}, 4100)
+}, 400)
 
 
 }
@@ -1905,74 +1898,74 @@ if ($('.blocks601').hasClass('active2')) {
       setTimeout(function() {
           $('.blocks600 .content-top').removeClass('transparent').addClass('animated slideInUp')
 
-      }, 100)
+      }, 10)
 
       setTimeout(function() {
             $('.blocks600 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 200)
+      }, 100)
 
       setTimeout(function() {
             $('.blocks600 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 300)
+      }, 200)
 
       setTimeout(function() {
             $('.blocks600 .content-last').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 400)
+      }, 300)
 
       setTimeout(function() {
             $('.blocks600 .content-secondLast').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 500)
+      }, 400)
 
       setTimeout(function() {
             $('.blocks600 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 600)
+      }, 500)
 
       setTimeout(function() {
             $('.blocks600 .content-fourthLast').removeClass('transparent');
 
-      }, 800)
+      }, 600)
 
       setTimeout(function() {
             $('.blocks600 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 1000)
+      }, 700)
 
 
       setTimeout(function() {
             $('.blocks620 .content-top').removeClass('transparent').addClass('animated  slideInRight')
 
-      }, 1200)
+      }, 800)
 
 
       setTimeout(function() {
           $('.blocks601 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-      }, 1500)
+      }, 900)
 
       setTimeout(function() {
             $('.blocks601 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 1700)
+      }, 100)
 
       setTimeout(function() {
             $('.blocks601 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-      }, 1900)
+      }, 200)
 
       setTimeout(function() {
             $('.blocks601 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-      }, 2100)
+      }, 300)
 
       setTimeout(function() {
             $('.blocks601 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-      }, 2500)
+      }, 400)
 
       setTimeout(function() {
         $('.blocks601 .content-thirdLast').removeClass('transparent');
@@ -1994,7 +1987,7 @@ if ($('.blocks601').hasClass('active2')) {
             type: 'char'
         });
 
-      }, 2800)
+      }, 300)
 
 
     }
@@ -2146,27 +2139,27 @@ $('.blocks700 .content-twentyoneLast').removeClass('transparent').addClass('anim
 setTimeout(function() {
   $('.blocks701 .content-top').removeClass('transparent').addClass('animated slideInDown')
 
-}, 1300)
+}, 100)
 
 setTimeout(function() {
     $('.blocks701 .content-middle').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1500)
+}, 200)
 
 setTimeout(function() {
     $('.blocks701 .content-bottom').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 1800)
+}, 300)
 
 setTimeout(function() {
     $('.blocks701 .content-last').removeClass('transparent').addClass('animated fadeInUp')
 
-}, 2200)
+}, 400)
 
 setTimeout(function() {
     $('.blocks701 .content-secondLast').removeClass('transparent').addClass('animated scale-in-left')
 
-}, 2400)
+}, 500)
 
 setTimeout(function() {
 $('.blocks701 .content-thirdLast').removeClass('transparent');
@@ -2188,7 +2181,7 @@ var $tlt104 = $('.tlt104').textillate({
     type: 'char'
 });
 
-}, 2600)
+}, 300)
 
 }
 
@@ -2216,7 +2209,7 @@ $('section').each(function() {
 
 
 
-if ($('.blocks8002').hasClass('active2')) {
+if ($('.blocks802').hasClass('active2')) {
 
 
 setTimeout(function() {
