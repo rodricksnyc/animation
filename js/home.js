@@ -4,6 +4,12 @@
 
 
 
+
+
+
+
+
+
 $( window ).on("load", function() {
 setTimeout(function() {
 $('.blocks12 .content-top').removeClass('transparent').addClass('animated infinite pulse')
