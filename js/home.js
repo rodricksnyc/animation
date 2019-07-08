@@ -3090,17 +3090,17 @@ setTimeout(function() {
 setTimeout(function() {
       $('.blocks2000 .content-thirdLast').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 600)
+}, 550)
 
 setTimeout(function() {
       $('.blocks2000 .content-fourthLast').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 700)
+}, 600)
 
 setTimeout(function() {
       $('.blocks2000 .content-fifthLast').removeClass('transparent').addClass('animated  slideInUp')
 
-}, 800)
+}, 650)
 
 
 }

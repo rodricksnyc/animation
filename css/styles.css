@@ -3324,17 +3324,17 @@ right: 0px;
   #bText2 {
     position: absolute;
     right: 0;
-    top: 214px;
+    top: 204px;
     color: white;
     font-family: 'Roboto', sans-serif;
-    left: 0px;
+    left: 8px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     vertical-align: middle;
     max-width: 275px;
     min-width: 275px;
-  }
+}
 
   .sign6 {
     position: absolute;
@@ -3357,7 +3357,7 @@ right: 0px;
     z-index: 9999;
     right: 0px;
     top: 279px;
-    left: -34px;
+    left: -47px;
   }
 
   .colAbsolute6 {
@@ -3601,7 +3601,7 @@ right: 0px;
     top: 61px;
     z-index: -1;
     max-width: 65px;
-    left: 36px;
+    left: 24px;
     z-index: 999;
   }
 
@@ -3664,7 +3664,7 @@ right: 0px;
     padding-top: 0em;
     top: 115px;
     max-width: 100%;
-    width: 275px;
+    width: 245px;
     height: 222px;
   }
 
@@ -3972,20 +3972,19 @@ right: 0px;
   }
 
   #bText5 {
-    position: absolute;
-    right: 0;
-    left: 0;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    top:111px;
-    min-width: 248px;
-    max-width: 248px;
-
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    vertical-align: middle;
+      position: absolute;
+      right: 2px;
+      left: 0;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      top: 104px;
+      min-width: 248px;
+      max-width: 248px;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      vertical-align: middle;
   }
 
   .blocks802 {
@@ -4096,5 +4095,3 @@ right: 0px;
     opacity: 1;
   }
 }
-
- 
